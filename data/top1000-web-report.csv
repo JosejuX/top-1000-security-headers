@@ -1,0 +1,1001 @@
+rank,domain,class,final_url,security_score,seo_score,platform,detected_technologies,server,x_powered_by,grade_strict_transport_security,grade_content_security_policy,grade_x_frame_options,grade_x_content_type_options,grade_referrer_policy,grade_permissions_policy
+1,google.com,usable,https://www.google.com/,38.3,33.3,No CMS/framework detected,,gws,,reasonable,report-only,strong,missing,missing,reasonable
+2,cloudflare.com,usable,https://www.cloudflare.com/,80.8,100.0,Astro,Astro|Google Tag Manager|Cloudflare,cloudflare,,strong,weak,strong,strong,strong,reasonable
+3,gstatic.com,unreachable,,,,,,sffe,,,,,,,
+4,facebook.com,unreachable,,,,,,,,,,,,,
+5,microsoft.com,blocked_inspection,https://www.microsoft.com/,0.0,23.1,,,AkamaiNetStorage,,missing,missing,missing,missing,missing,missing
+6,googleapis.com,unreachable,,,,,,,,,,,,,
+7,amazonaws.com,usable,https://aws.amazon.com:443/,50.0,76.9,React,React,Server,,strong,missing,strong,strong,missing,missing
+8,youtube.com,usable,https://www.youtube.com/,57.5,58.3,No CMS/framework detected,,ESF,,reasonable,weak,strong,strong,missing,reasonable
+9,apple.com,usable,https://www.apple.com/,64.2,66.7,No CMS/framework detected,,Apple,,strong,weak,strong,strong,reasonable,missing
+10,akamai.net,not_a_website,,,,,,,,,,,,,
+11,instagram.com,usable,https://www.instagram.com/,54.2,41.7,No CMS/framework detected,,,,strong,weak,strong,strong,missing,missing
+12,mail.ru,thin_page,https://account.mail.ru/login,37.5,41.7,,,nginx/1.28.0,,strong,weak,missing,strong,missing,missing
+13,gtld-servers.net,not_a_website,,,,,,,,,,,,,
+14,ezviz7.com,not_a_website,,,,,,,,,,,,,
+15,fbcdn.net,unreachable,,,,,,,,,,,,,
+16,twitter.com,unreachable,,,,,,cloudflare envoy,,,,,,,
+17,dzen.ru,usable,https://sso.passport.yandex.ru/push,60.0,25.0,No CMS/framework detected,,,,strong,strong,missing,strong,reasonable,missing
+18,linkedin.com,usable,https://www.linkedin.com/,47.5,76.9,No CMS/framework detected,,ESF,,reasonable,weak,strong,strong,missing,missing
+19,domaincontrol.com,not_a_website,,,,,,,,,,,,,
+20,googlevideo.com,unreachable,,,,,,gws,,,,,,,
+21,office.com,usable,https://m365.cloud.microsoft/,70.8,76.9,Angular,Angular,,,strong,weak,strong,strong,strong,missing
+22,googletagmanager.com,unreachable,,,,,,Google Tag Manager,,,,,,,
+23,hicloudcam.com,usable,https://www.hicloudcam.com/index.html,0.0,41.7,Other (analytics/CDN only),jQuery,Tengine,,missing,missing,missing,missing,missing,missing
+24,live.com,usable,https://outlook.live.com/mail/,54.2,30.8,No CMS/framework detected,,Microsoft-HTTPAPI/2.0,,strong,weak,missing,strong,strong,missing
+25,akamaiedge.net,not_a_website,,,,,,,,,,,,,
+26,amazon.com,thin_page,https://www.amazon.com/,0.0,50.0,,,Server,,missing,missing,missing,missing,missing,missing
+27,akadns.net,not_a_website,,,,,,,,,,,,,
+28,azure.com,unreachable,,,,,,,,,,,,,
+29,bing.com,usable,https://www.bing.com:443/,47.5,69.2,No CMS/framework detected,,,,strong,weak,strong,missing,missing,reasonable
+30,github.com,usable,https://github.com,64.2,75.0,Other (analytics/CDN only),Contentful,github.com,,strong,weak,strong,strong,reasonable,missing
+31,wikipedia.org,usable,https://www.wikipedia.org/,16.7,61.5,No CMS/framework detected,,ATS/9.2.15,,strong,missing,missing,missing,missing,missing
+32,whatsapp.net,unreachable,,,,,,,,,,,,,
+33,apple-dns.net,not_a_website,,,,,,,,,,,,,
+34,fastly.net,usable,https://www.fastly.com/,43.3,66.7,No CMS/framework detected,,Artisanal bits,,reasonable,missing,strong,strong,missing,missing
+35,googleusercontent.com,unreachable,,,,,,sffe,,,,,,,
+36,appsflyersdk.com,unreachable,,,,,,CloudFront,,,,,,,
+37,doubleclick.net,usable,https://marketingplatform.google.com/about/enterprise/,20.8,92.3,Other (analytics/CDN only),Google Tag Manager,sffe,,missing,weak,missing,strong,missing,missing
+38,aaplimg.com,not_a_website,,,,,,,,,,,,,
+39,microsoftonline.com,not_a_website,,,,,,,,,,,,,
+40,office.net,not_a_website,,,,,,,,,,,,,
+41,netflix.com,usable,https://www.netflix.com/es-en/,51.7,61.5,No CMS/framework detected,,envoy,,strong,report-only,strong,strong,missing,missing
+42,trafficmanager.net,not_a_website,,,,,,,,,,,,,
+43,gandi.net,usable,https://www.gandi.net/en-US,47.5,76.9,Other (analytics/CDN only),PrestaShop,nginx,,reasonable,missing,strong,weak,strong,missing
+44,sharepoint.com,not_a_website,,,,,,AkamaiNetStorage,,,,,,,
+45,digicert.com,usable,https://www.digicert.com/,26.7,84.6,No CMS/framework detected,,,,reasonable,missing,missing,strong,missing,missing
+46,youtu.be,usable,https://www.youtube.com/,57.5,58.3,No CMS/framework detected,,ESF,,reasonable,weak,strong,strong,missing,reasonable
+47,wordpress.org,usable,https://wordpress.org,20.8,83.3,WordPress,WordPress|Alpine.js|Google Tag Manager,nginx,,weak,missing,strong,missing,missing,missing
+48,skype.com,usable,https://teams.live.com/free,37.5,69.2,No CMS/framework detected,,,,strong,weak,missing,strong,missing,missing
+49,cloud.microsoft,usable,https://m365.cloud.microsoft/,70.8,76.9,Angular,Angular,,,strong,weak,strong,strong,strong,missing
+50,goo.gl,unreachable,,,,,,ESF,,,,,,,
+51,cloudfront.net,not_a_website,,,,,,,,,,,,,
+52,x.com,unreachable,,,,,,cloudflare envoy,,,,,,,
+53,googledomains.com,usable,https://domains.google/,20.8,53.8,Squarespace,Squarespace,sffe,,missing,weak,missing,strong,missing,missing
+54,tiktok.com,usable,https://www.tiktok.com/,70.8,50.0,No CMS/framework detected,,nginx,Goofy Node,strong,weak,strong,strong,strong,missing
+55,icloud.com,usable,https://www.icloud.com/,54.2,66.7,No CMS/framework detected,,AppleHttpServer/cff317772116,,strong,weak,strong,strong,missing,missing
+56,pinterest.com,usable,https://www.pinterest.com/,64.2,75.0,No CMS/framework detected,,,,strong,weak,strong,strong,reasonable,missing
+57,whatsapp.com,unreachable,,,,,,,,,,,,,
+58,roblox.com,usable,https://www.roblox.com/,30.8,75.0,Angular,Angular|Cloudflare,cloudflare,,reasonable,weak,strong,missing,missing,missing
+59,yahoo.com,usable,https://consent.yahoo.com/v2/collectConsent,68.3,46.2,No CMS/framework detected,,ATS,,strong,report-only,strong,strong,strong,missing
+60,cloudflare.net,blocked_inspection,https://cloudflare.net,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+61,windowsupdate.com,not_a_website,,,,,,,,,,,,,
+62,gvt1.com,not_a_website,,,,,,,,,,,,,
+63,googlesyndication.com,usable,https://www.google.com/,28.3,33.3,No CMS/framework detected,,gws,,missing,report-only,strong,missing,missing,reasonable
+64,msn.com,usable,https://www.msn.com/es-es,41.7,41.7,No CMS/framework detected,,Kestrel,,weak,weak,strong,strong,missing,missing
+65,spotify.com,usable,https://open.spotify.com/,30.8,58.3,No CMS/framework detected,,envoy,,reasonable,weak,missing,strong,missing,missing
+66,windows.net,unreachable,,,,,,,ASP.NET,,,,,,
+67,ntp.org,usable,https://www.ntp.org/,4.2,76.9,Other (analytics/CDN only),Google Analytics 4,Apache,,weak,missing,missing,missing,missing,missing
+68,adobe.com,unreachable,,,,,,,,,,,,,
+69,myfritz.net,usable,https://www.myfritz.net/devices/,57.5,50.0,No CMS/framework detected,,cloud-gateway/cloud-gateway-4.6.66 (AVM),,reasonable,weak,strong,strong,reasonable,missing
+70,pv-cdn.net,not_a_website,,,,,,,,,,,,,
+71,wa.me,unreachable,,,,,,,,,,,,,
+72,cdninstagram.com,not_a_website,,,,,,,,,,,,,
+73,nginx.org,usable,https://nginx.org,10.0,38.5,No CMS/framework detected,,nginx/1.29.8,,reasonable,missing,missing,missing,missing,missing
+74,akam.net,not_a_website,,,,,,,,,,,,,
+75,chatgpt.com,blocked_inspection,https://chatgpt.com,0.0,33.3,,,cloudflare,,missing,missing,missing,missing,missing,missing
+76,tiktokcdn.com,not_a_website,,,,,,,,,,,,,
+77,zoom.us,usable,https://www.zoom.com,10.0,84.6,Other (analytics/CDN only),Google Tag Manager,cloudflare,,reasonable,missing,missing,missing,missing,missing
+78,tiktokv.com,usable,https://www.tiktok.com/,70.8,50.0,No CMS/framework detected,,nginx,Goofy Node,strong,weak,strong,strong,strong,missing
+79,vimeo.com,usable,https://vimeo.com,50.0,91.7,Next.js,Next.js,cloudflare,Next.js,strong,missing,strong,strong,missing,missing
+80,edgekey.net,not_a_website,,,,,,,,,,,,,
+81,cloudflare-dns.com,unreachable,,,,,,httpd,,,,,,,
+82,baidu.com,usable,https://www.baidu.com/,0.0,30.8,No CMS/framework detected,,BWS/1.1,,missing,missing,missing,missing,missing,missing
+83,gvt2.com,not_a_website,,,,,,,,,,,,,
+84,yandex.net,usable,https://ya.ru/,54.2,66.7,No CMS/framework detected,,,,strong,weak,strong,strong,missing,missing
+85,root-servers.net,not_a_website,,,,,,,,,,,,,
+86,openai.com,blocked_inspection,https://openai.com,0.0,25.0,,,cloudflare,,missing,missing,missing,missing,missing,missing
+87,windows.com,usable,https://www.microsoft.com/en-us/windows/,16.7,84.6,Next.js,Contentful|Next.js|Angular,,,strong,missing,missing,missing,missing,missing
+88,gwfb.net,not_a_website,,,,,,,,,,,,,
+89,qq.com,unreachable,,,,,,,,,,,,,
+90,workers.dev,usable,https://www.cloudflare.com/products/workers/,80.8,92.3,Astro,Astro|Google Tag Manager|Cloudflare,cloudflare,,strong,weak,strong,strong,strong,reasonable
+91,ytimg.com,not_a_website,,,,,,,,,,,,,
+92,opera.com,usable,https://www.opera.com/,76.7,91.7,Other (analytics/CDN only),Google Tag Manager,,,strong,reasonable,strong,strong,strong,missing
+93,blogspot.com,usable,https://www.blogger.com/about/,20.8,76.9,Other (analytics/CDN only),Google Analytics 4,sffe,,missing,weak,missing,strong,missing,missing
+94,samsung.com,usable,https://www.samsung.com/es/,26.7,100.0,Angular,Angular,,,reasonable,missing,strong,missing,missing,missing
+95,mozilla.org,usable,https://www.mozilla.org/en-US/,64.2,84.6,No CMS/framework detected,,granian,,reasonable,weak,strong,strong,strong,missing
+96,nginx.com,unreachable,,,,,,volt-adc,,,,,,,
+97,wordpress.com,usable,https://wordpress.com,43.3,66.7,WordPress,WordPress,nginx,,reasonable,missing,strong,strong,missing,missing
+98,edgesuite.net,not_a_website,,,,,,,,,,,,,
+99,workbox.dk,not_a_website,,,,,,,,,,,,,
+100,yandex.ru,usable,https://sso.passport.yandex.ru/push,60.0,25.0,No CMS/framework detected,,,,strong,strong,missing,strong,reasonable,missing
+101,capgemini.com,usable,https://www.capgemini.com/,80.8,84.6,WordPress,WordPress|jQuery|Bootstrap|Google Tag Manager,nginx,,strong,weak,strong,strong,strong,reasonable
+102,sentry.io,usable,https://sentry.io/welcome/,20.8,76.9,Astro,Astro,nginx,,strong,weak,missing,missing,missing,missing
+103,nic.ru,usable,https://nic.ru,0.0,15.4,Other (analytics/CDN only),Google Analytics 4,31.177.80.4,,missing,missing,missing,missing,missing,missing
+104,achmea.nl,usable,https://www.achmea.nl/,70.8,84.6,No CMS/framework detected,,,,strong,weak,strong,strong,strong,missing
+105,reddit.com,usable,https://www.reddit.com/,54.2,41.7,No CMS/framework detected,,snooserv,,strong,weak,strong,strong,missing,missing
+106,ui.com,usable,https://ui.com,66.7,58.3,Angular,Angular|Google Analytics 4|Hotjar,AmazonS3,,strong,missing,strong,strong,strong,missing
+107,t.me,usable,https://telegram.org/,33.3,46.2,Other (analytics/CDN only),Bootstrap,nginx/1.30.1,,strong,missing,strong,missing,missing,missing
+108,a2z.com,not_a_website,,,,,,,,,,,,,
+109,b-cdn.net,usable,https://bunny.net,0.0,66.7,Other (analytics/CDN only),TailwindCSS,BunnyCDN-ES1-895,,missing,missing,missing,missing,missing,missing
+110,office365.com,unreachable,,,,,,,,,,,,,
+111,bit.ly,usable,https://bitly.com/,26.7,84.6,WordPress,WordPress|jQuery|Google Tag Manager,nginx,,reasonable,missing,strong,missing,missing,missing
+112,europa.eu,usable,https://european-union.europa.eu/select-language,50.0,76.9,Drupal,Drupal|jQuery,,,strong,missing,strong,strong,missing,missing
+113,google-analytics.com,usable,https://marketingplatform.google.com/about/analytics/,20.8,92.3,Other (analytics/CDN only),Google Tag Manager,sffe,,missing,weak,missing,strong,missing,missing
+114,okcdn.ru,unreachable,,,,,,Apache,,,,,,,
+115,outlook.com,usable,https://outlook.live.com/mail/,54.2,30.8,No CMS/framework detected,,Microsoft-HTTPAPI/2.0,,strong,weak,missing,strong,strong,missing
+116,yccdn.ru,not_a_website,,,,,,,,,,,,,
+117,registrar-servers.com,thin_page,https://registrar-servers.com,0.0,53.8,,,namecheap-web,,missing,missing,missing,missing,missing,missing
+118,aws.dev,not_a_website,,,,,,,,,,,,,
+119,vk.com,usable,https://vk.com,30.8,41.7,No CMS/framework detected,,kittenx,KPHP/7.4.127396,reasonable,weak,strong,missing,missing,missing
+120,afternic.com,usable,https://www.afternic.com/,60.0,92.3,Next.js,Contentful|React|Next.js,envoy,,reasonable,missing,strong,strong,strong,missing
+121,github.io,usable,https://pages.github.com/,0.0,71.4,Other (analytics/CDN only),jQuery,GitHub.com,,missing,missing,missing,missing,missing,missing
+122,criteo.com,usable,https://www.criteo.com/,8.3,91.7,WordPress,WordPress|Google Tag Manager|Cloudflare,nginx,,weak,weak,missing,missing,missing,missing
+123,f5.com,usable,https://www.f5.com/,24.2,84.6,Next.js,BigCommerce|Sanity|Next.js,volt-adc,,reasonable,weak,missing,missing,missing,reasonable
+124,ripn.net,not_a_website,,,,,,,,,,,,,
+125,amazonvideo.com,usable,https://www.primevideo.com/offers/nonprimehomepage,61.7,33.3,No CMS/framework detected,,Server,,strong,report-only,strong,strong,missing,reasonable
+126,vkuserphoto.ru,unreachable,,,,,,kittenx,,,,,,,
+127,apache.org,usable,https://apache.org,20.8,61.5,Other (analytics/CDN only),jQuery,Apache,,strong,weak,missing,missing,missing,missing
+128,app-measurement.com,unreachable,,,,,,sffe,,,,,,,
+129,cdn77.org,not_a_website,,,,,,,,,,,,,
+130,app-analytics-services.com,unreachable,,,,,,,,,,,,,
+131,snapchat.com,usable,https://www.snapchat.com:443/,37.5,83.3,Next.js,Next.js,API Gateway,Next.js,strong,weak,strong,missing,missing,missing
+132,dnsowl.com,not_a_website,,,,,,,,,,,,,
+133,unity3d.com,usable,https://unity.com/,0.0,92.3,Next.js,Sanity|Next.js,,Next.js,missing,missing,missing,missing,missing,missing
+134,amazon-adsystem.com,unreachable,,,,,,,,,,,,,
+135,discord.gg,usable,https://discord.com,64.2,92.3,Other (analytics/CDN only),Google Tag Manager,cloudflare,,strong,weak,strong,strong,missing,reasonable
+136,nih.gov,blocked_inspection,https://www.nih.gov/,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+137,amazon.dev,not_a_website,,,,,,,,,,,,,
+138,trbcdn.net,unreachable,,,,,,,,,,,,,
+139,dns.google,thin_page,https://dns.google,54.2,50.0,,,scaffolding on HTTPServer2,,strong,weak,strong,strong,missing,missing
+140,msftncsi.com,not_a_website,,,,,,,,,,,,,
+141,iiko.it,not_a_website,,,,,,,,,,,,,
+142,kaspersky.com,usable,https://www.kaspersky.es/,70.0,53.8,Next.js,Next.js|Google Tag Manager,nginx,,strong,reasonable,strong,strong,reasonable,missing
+143,dropbox.com,usable,https://www.dropbox.com/,70.8,75.0,No CMS/framework detected,,envoy,,strong,weak,strong,strong,strong,missing
+144,miit.gov.cn,usable,https://www.miit.gov.cn,0.0,38.5,Other (analytics/CDN only),jQuery,,,missing,missing,missing,missing,missing,missing
+145,intuit.com,usable,https://www.intuit.com/,40.8,76.9,Next.js,Next.js,istio-envoy,,reasonable,reasonable,strong,weak,missing,missing
+146,netflix.net,usable,https://www.netflix.com/es-en/,51.7,61.5,No CMS/framework detected,,envoy,,strong,report-only,strong,strong,missing,missing
+147,static.microsoft,not_a_website,,,,,,,,,,,,,
+148,forms.gle,unreachable,,,,,,,,,,,,,
+149,reg.ru,usable,https://reg.ru,0.0,15.4,Other (analytics/CDN only),Google Analytics 4,194.67.72.31,,missing,missing,missing,missing,missing,missing
+150,archive.org,thin_page,https://archive.org,24.2,41.7,,,nginx/1.31.3,,reasonable,weak,missing,missing,reasonable,missing
+151,dns-parking.com,not_a_website,,,,,,,,,,,,,
+152,godaddy.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+153,epicgames.com,unreachable,,,,,,cloudflare,,,,,,,
+154,azurefd.net,not_a_website,,,,,,,,,,,,,
+155,xiaomi.com,usable,https://www.mi.com/es/,26.7,100.0,Other (analytics/CDN only),Google Analytics 4|Google Tag Manager,Tengine,,missing,reasonable,strong,missing,missing,missing
+156,gravatar.com,usable,https://gravatar.com,37.5,69.2,Other (analytics/CDN only),WooCommerce,nginx,,strong,weak,strong,missing,missing,missing
+157,nytimes.com,usable,https://www.nytimes.com/,64.2,66.7,No CMS/framework detected,,envoy,,strong,weak,strong,strong,missing,reasonable
+158,steamserver.net,not_a_website,,,,,,,,,,,,,
+159,tumblr.com,usable,https://www.tumblr.com/,47.5,66.7,WordPress,WordPress,nginx,,reasonable,weak,strong,strong,missing,missing
+160,vedcdnlb.com,not_a_website,,,,,,,,,,,,,
+161,paypal.com,usable,https://www.paypal.com/es/home,47.5,91.7,Other (analytics/CDN only),TailwindCSS,,,strong,weak,missing,strong,missing,reasonable
+162,one.one,usable,https://www.one.com/en-gb/,10.0,41.7,Next.js,Next.js,Apache,,reasonable,missing,missing,missing,missing,missing
+163,msftconnecttest.com,not_a_website,,,,,,,,,,,,,
+164,aliyuncs.com,unreachable,,,,,,Tengine,,,,,,,
+165,discord.com,usable,https://discord.com,64.2,92.3,Other (analytics/CDN only),Google Tag Manager,cloudflare,,strong,weak,strong,strong,missing,reasonable
+166,applovin.com,usable,https://applovin.com/en,70.0,84.6,Next.js,Next.js|Angular,envoy,,reasonable,reasonable,strong,strong,strong,missing
+167,adtrafficquality.google,usable,https://www.google.com/ads/adtrafficquality/,20.8,58.3,Other (analytics/CDN only),Google Tag Manager,sffe,,missing,weak,missing,strong,missing,missing
+168,prodregistryv2.org,unreachable,,,,,,,,,,,,,
+169,3gppnetwork.org,not_a_website,,,,,,,,,,,,,
+170,tm-azurefd.net,not_a_website,,,,,,,,,,,,,
+171,ax-msedge.net,not_a_website,,,,,,,,,,,,,
+172,vk.ru,usable,https://vk.ru,30.8,41.7,No CMS/framework detected,,kittenx,KPHP/7.4.127396,reasonable,weak,strong,missing,missing,missing
+173,soundcloud.com,usable,https://soundcloud.com,33.3,83.3,No CMS/framework detected,,am/2,,strong,missing,strong,missing,missing,missing
+174,jomodns.com,not_a_website,,,,,,,,,,,,,
+175,shopify.com,usable,https://www.shopify.com/,26.7,83.3,Shopify,Shopify|TailwindCSS,cloudflare,,reasonable,missing,missing,strong,missing,missing
+176,ggpht.com,not_a_website,,,,,,,,,,,,,
+177,webex.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+178,mts.ru,usable,https://moskva.mts.ru/personal,0.0,50.0,Angular,Angular,QRATOR,Express,missing,missing,missing,missing,missing,missing
+179,adobe.io,usable,https://developer.adobe.com/,10.0,57.1,No CMS/framework detected,,,,reasonable,missing,missing,missing,missing,missing
+180,macromedia.com,unreachable,,,,,,,,,,,,,
+181,flickr.com,usable,https://www.flickr.com,50.0,76.9,Other (analytics/CDN only),Google Analytics 4|Google Tag Manager|Cloudflare,,,missing,missing,strong,strong,strong,missing
+182,example.com,thin_page,https://example.com,0.0,58.3,,,cloudflare,,missing,missing,missing,missing,missing,missing
+183,googleadservices.com,unreachable,,,,,,sffe,,,,,,,
+184,azurewebsites.net,not_a_website,,,,,,,,,,,,,
+185,namebrightdns.com,not_a_website,,,,,,,,,,,,,
+186,ack.de,not_a_website,,,,,,,,,,,,,
+187,w3.org,blocked_inspection,https://w3.org,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+188,hichina.com,usable,https://www.hichina.com,11.7,46.2,React,React|jQuery,Tengine/Aserver,,reasonable,report-only,missing,missing,missing,missing
+189,cdn-apple.com,not_a_website,,,,,,,,,,,,,
+190,nflxso.net,not_a_website,,,,,,,,,,,,,
+191,medium.com,blocked_inspection,https://medium.com,0.0,50.0,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+192,bytefcdn-oversea.com,not_a_website,,,,,,,,,,,,,
+193,cnn.com,usable,https://edition.cnn.com/,20.8,33.3,No CMS/framework detected,,,,missing,weak,missing,strong,missing,missing
+194,rubiconproject.com,usable,https://www.magnite.com/,20.0,84.6,WordPress,WordPress|Google Tag Manager,cloudflare,WP Engine,reasonable,reasonable,missing,missing,missing,missing
+195,vungle.com,unreachable,,,,,,cloudflare,WP Engine,,,,,,
+196,creativecommons.org,usable,https://creativecommons.org,0.0,76.9,WordPress,WordPress|Google Analytics 4,cloudflare,,missing,missing,missing,missing,missing,missing
+197,theguardian.com,usable,https://www.theguardian.com/europe,74.2,61.5,No CMS/framework detected,,,,strong,weak,strong,strong,reasonable,reasonable
+198,lencr.org,usable,https://letsencrypt.org/docs/lencr.org/,74.2,64.3,No CMS/framework detected,,Netlify,,reasonable,weak,strong,strong,strong,reasonable
+199,oracle.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+200,playstation.net,not_a_website,,,,,,,,,,,,,
+201,taboola.com,usable,https://www.taboola.com/,56.7,92.3,WordPress,WordPress,,,reasonable,reasonable,missing,strong,reasonable,reasonable
+202,shifen.com,unreachable,,,,,,,,,,,,,
+203,lsrelayaccess.com,unreachable,,,,,,,,,,,,,
+204,sfx.ms,not_a_website,,,,,,,,,,,,,
+205,miui.com,usable,https://home.miui.com/,0.0,42.9,Next.js,Next.js|Google Analytics 4,openresty,,missing,missing,missing,missing,missing,missing
+206,forbes.com,usable,https://www.forbes.com/,70.0,75.0,Next.js,Next.js,istio-envoy,,strong,reasonable,strong,missing,strong,reasonable
+207,doi.org,usable,https://www.doi.org/,0.0,38.5,Other (analytics/CDN only),jQuery|Bootstrap,AmazonS3,,missing,missing,missing,missing,missing,missing
+208,ttdns2.com,not_a_website,,,,,,,,,,,,,
+209,bbc.com,usable,https://www.bbc.com/,53.3,61.5,Next.js,Next.js,BBC-GTM,,reasonable,missing,strong,strong,reasonable,missing
+210,adsafeprotected.com,not_a_website,,,,,,AmazonS3,,,,,,,
+211,t-online.de,usable,https://www.t-online.de/,53.3,92.3,Next.js,Next.js|Alpine.js|TailwindCSS,default,,strong,reasonable,missing,strong,reasonable,missing
+212,youtube-nocookie.com,unreachable,,,,,,ESF,,,,,,,
+213,pki.goog,usable,https://pki.goog,18.3,69.2,Other (analytics/CDN only),Google Analytics 4,sffe,,missing,report-only,missing,strong,missing,missing
+214,sciencedirect.com,unreachable,,,,,,cloudflare,,,,,,,
+215,pages.dev,usable,https://www.cloudflare.com/products/pages/,80.8,92.3,Astro,Astro|Google Tag Manager|Cloudflare,cloudflare,,strong,weak,strong,strong,strong,reasonable
+216,comcast.net,unreachable,,,,,,,,,,,,,
+217,mit.edu,usable,https://web.mit.edu/,30.8,76.9,Vue.js,Vue.js|Google Tag Manager,Apache,,weak,reasonable,strong,missing,missing,missing
+218,cpanel.net,usable,https://www.cpanel.net/,0.0,100.0,WordPress,WordPress|WooCommerce|jQuery|Google Tag Manager,cloudflare,,missing,missing,missing,missing,missing,missing
+219,researchgate.net,unreachable,,,,,,cloudflare,,,,,,,
+220,gmail.com,usable,https://accounts.google.com/v3/signin/identifier,64.2,33.3,No CMS/framework detected,,ESF,,strong,weak,strong,strong,missing,reasonable
+221,fastly-edge.com,not_a_website,,,,,,,,,,,,,
+222,twitch.tv,usable,https://www.twitch.tv/,43.3,66.7,No CMS/framework detected,,,,reasonable,missing,strong,strong,missing,missing
+223,cdngslb.com,unreachable,,,,,,,,,,,,,
+224,bbc.co.uk,usable,https://www.bbc.co.uk/,74.2,91.7,No CMS/framework detected,,BBC-GTM,,reasonable,weak,strong,strong,strong,reasonable
+225,ozon.ru,not_a_website,,,,,,nginx,,,,,,,
+226,ksyuncdn.com,not_a_website,,,,,,,,,,,,,
+227,telekom.net,usable,https://www.telekom.com,60.0,84.6,No CMS/framework detected,,nginx,,strong,reasonable,strong,strong,missing,missing
+228,t.co,usable,https://t.co,16.7,30.8,No CMS/framework detected,,cloudflare envoy,,strong,missing,missing,missing,missing,missing
+229,nist.gov,usable,https://www.nist.gov/,35.0,84.6,Drupal,Drupal|Cloudflare,cloudflare,,reasonable,weak,weak,strong,missing,missing
+230,akamaized.net,not_a_website,,,,,,,,,,,,,
+231,etsy.com,unreachable,,,,,,DataDome,,,,,,,
+232,nr-data.net,not_a_website,,,,,,,,,,,,,
+233,ubuntu.com,usable,https://ubuntu.com,57.5,85.7,Other (analytics/CDN only),Google Tag Manager,nginx/1.14.0 (Ubuntu),,reasonable,weak,missing,strong,strong,reasonable
+234,userapi.com,usable,https://vk.com/,30.8,41.7,No CMS/framework detected,,kittenx,KPHP/7.4.127396,reasonable,weak,strong,missing,missing,missing
+235,sourceforge.net,blocked_inspection,https://sourceforge.net,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+236,azureedge.net,not_a_website,,,,,,,,,,,,,
+237,ebay.com,usable,https://www.ebay.com/,45.0,83.3,No CMS/framework detected,,AkamaiGHost,,reasonable,report-only,strong,strong,missing,missing
+238,stripe.com,usable,https://stripe.com/en-es,64.2,85.7,Next.js,WooCommerce|Next.js,nginx,,strong,weak,strong,strong,reasonable,missing
+239,canva.com,unreachable,,,,,,cloudflare,,,,,,,
+240,pubmatic.com,usable,https://pubmatic.com,60.0,92.3,WordPress,WordPress|Bootstrap|Google Analytics 4|Google Tag Manager|Cloudflare,CloudFront,,reasonable,missing,strong,strong,strong,missing
+241,telecid.ru,unreachable,,,,,,nginx,,,,,,,
+242,android.com,usable,https://www.android.com/,20.8,83.3,No CMS/framework detected,,sffe,,missing,weak,missing,strong,missing,missing
+243,name-services.com,not_a_website,,,,,,,,,,,,,
+244,telegram.org,usable,https://telegram.org,33.3,46.2,Other (analytics/CDN only),Bootstrap,nginx/1.30.1,,strong,missing,strong,missing,missing,missing
+245,rbxcdn.com,not_a_website,,,,,,,,,,,,,
+246,cisco.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+247,wsdvs.com,not_a_website,,,,,,,,,,,,,
+248,wikimedia.org,usable,https://www.wikimedia.org/,16.7,46.2,No CMS/framework detected,,ATS/9.2.15,,strong,missing,missing,missing,missing,missing
+249,arubanetworks.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+250,hubspot.com,usable,https://www.hubspot.com/,64.2,66.7,No CMS/framework detected,,cloudflare,,strong,weak,strong,strong,reasonable,missing
+251,adsrvr.org,usable,https://adsrvr.org,0.0,61.5,No CMS/framework detected,,AmazonS3,,missing,missing,missing,missing,missing,missing
+252,who.int,unreachable,,,,,,cloudflare,,,,,,,
+253,imdb.com,thin_page,https://www.imdb.com/,16.7,50.0,,,Server,,strong,missing,missing,missing,missing,missing
+254,booking.com,usable,https://www.booking.com/,18.3,50.0,No CMS/framework detected,,istio-envoy,,strong,report-only,missing,missing,missing,missing
+255,adnxs.com,unreachable,,,,,,nginx/1.25.5,,,,,,,
+256,omtrdc.net,not_a_website,,,,,,,,,,,,,
+257,wixsite.com,usable,https://www.wix.com/,36.7,41.7,Wix,Wix,Pepyaka,,reasonable,missing,missing,strong,reasonable,missing
+258,scorecardresearch.com,usable,https://www.scorecardresearch.com/Home.aspx,36.7,61.5,Other (analytics/CDN only),Google Tag Manager,,ASP.NET,reasonable,reasonable,strong,missing,missing,missing
+259,launchpad.net,usable,https://launchpad.net,53.3,53.8,No CMS/framework detected,,gunicorn,"Zope (www.zope.org), Python (www.python.org)",reasonable,reasonable,strong,strong,missing,missing
+260,edgcdn.net,not_a_website,,,,,,,,,,,,,
+261,linktr.ee,unreachable,,,,,,Varnish,,,,,,,
+262,meraki.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+263,roku.com,usable,https://www.roku.com/intl,43.3,83.3,WordPress,WordPress|Angular|Google Tag Manager|Cloudflare,cloudflare,,reasonable,missing,strong,strong,missing,missing
+264,duckdns.org,unreachable,,,,,,,,,,,,,
+265,alibabadns.com,not_a_website,,,,,,,,,,,,,
+266,hcaptcha.com,usable,https://www.hcaptcha.com/,58.3,78.6,No CMS/framework detected,,cloudflare,,strong,weak,strong,strong,weak,missing
+267,imcmdb.net,unreachable,,,,,,,,,,,,,
+268,ibm.com,usable,https://www.ibm.com/us-en,53.3,84.6,No CMS/framework detected,,,,reasonable,reasonable,strong,strong,missing,missing
+269,alidns.com,usable,https://alidns.com,30.8,38.5,No CMS/framework detected,,Tengine/Aserver,,reasonable,weak,strong,missing,missing,missing
+270,facebook.net,not_a_website,,,,,,,,,,,,,
+271,spo-msedge.net,not_a_website,,,,,,,,,,,,,
+272,ttvnw.net,not_a_website,,,,,,,,,,,,,
+273,springer.com,blocked_inspection,https://link.springer.com/brands/springer,0.0,46.2,,,,,missing,missing,missing,missing,missing,missing
+274,reuters.com,unreachable,,,,,,CloudFront,,,,,,,
+275,msedge.net,unreachable,,,,,,,,,,,,,
+276,forter.com,unreachable,,,,,,cloudflare,WP Engine,,,,,,
+277,tinyurl.com,usable,https://tinyurl.com,80.8,53.8,Other (analytics/CDN only),Cloudflare,cloudflare,,strong,weak,strong,strong,strong,reasonable
+278,vecdnlb.com,not_a_website,,,,,,,,,,,,,
+279,mangosip.ru,unreachable,,,,,,,,,,,,,
+280,amplitude.com,usable,https://amplitude.com,20.0,83.3,Next.js,Sanity|Next.js|Google Tag Manager,nginx/1.22.0,Next.js,reasonable,reasonable,missing,missing,missing,missing
+281,nature.com,usable,https://www.nature.com,43.3,53.8,Other (analytics/CDN only),Google Analytics 4,Oscar Platform 0.2398.0,,reasonable,missing,strong,strong,missing,missing
+282,triplinkintl.com,usable,https://www.triplinkintl.com,0.0,92.3,Next.js,Next.js,,Next.js,missing,missing,missing,missing,missing,missing
+283,weibo.com,blocked_inspection,https://passport.weibo.com/visitor/visitor,26.7,33.3,,,APISIX/3.14.1,,strong,reasonable,missing,missing,missing,missing
+284,tiktokcdn-us.com,not_a_website,,,,,,,,,,,,,
+285,mozilla.com,usable,https://www.firefox.com/en-US/,64.2,100.0,No CMS/framework detected,,granian,,reasonable,weak,strong,strong,strong,missing
+286,byteoversea.net,not_a_website,,,,,,,,,,,,,
+287,hp.com,usable,https://www.hp.com/es-es/home.html,25.0,76.9,No CMS/framework detected,,Apache,,weak,missing,weak,strong,missing,missing
+288,www.gov.uk,usable,https://www.gov.uk,74.2,76.9,Angular,Angular|Google Analytics 4,nginx,,reasonable,weak,strong,strong,strong,reasonable
+289,wac-msedge.net,not_a_website,,,,,,,,,,,,,
+290,harvard.edu,usable,https://www.harvard.edu/,0.0,100.0,WordPress,WordPress|jQuery|Google Tag Manager,nginx,,missing,missing,missing,missing,missing,missing
+291,debian.org,usable,https://www.debian.org/,70.0,50.0,No CMS/framework detected,,Apache,,reasonable,missing,strong,strong,strong,reasonable
+292,hostgator.com,unreachable,,,,,,cloudflare,,,,,,,
+293,clarity.ms,unreachable,,,,,,,,,,,,,
+294,inmobi.com,usable,https://www.inmobi.com/,16.7,84.6,Next.js,Next.js,nginx,Next.js,missing,missing,strong,missing,missing,missing
+295,dnsmadeeasy.com,usable,https://dnsmadeeasy.com,43.3,61.5,No CMS/framework detected,,,,reasonable,missing,strong,strong,missing,missing
+296,jsdelivr.net,unreachable,,,,,,,,,,,,,
+297,steampowered.com,usable,https://store.steampowered.com/,30.8,76.9,No CMS/framework detected,,nginx,,reasonable,weak,strong,missing,missing,missing
+298,wildberries.ru,unreachable,,,,,,wbaas,,,,,,,
+299,2mdn.net,not_a_website,,,,,,,,,,,,,
+300,media-amazon.com,not_a_website,,,,,,,,,,,,,
+301,mzstatic.com,usable,https://www.apple.com/,64.2,66.7,No CMS/framework detected,,Apple,,strong,weak,strong,strong,reasonable,missing
+302,weather.com,usable,https://weather.com,16.7,84.6,Next.js,Next.js,Vercel,Next.js,strong,missing,missing,missing,missing,missing
+303,alibaba.com,usable,https://www.alibaba.com/,43.3,61.5,Wix,Wix|React,,,reasonable,missing,strong,strong,missing,missing
+304,aliyuncsslbintl.com,not_a_website,,,,,,,,,,,,,
+305,spov-msedge.net,not_a_website,,,,,,,,,,,,,
+306,autodesk.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+307,wiley.com,usable,https://www.wiley.com/en-es/,37.5,75.0,Other (analytics/CDN only),Cloudflare,cloudflare,,weak,missing,strong,strong,missing,missing
+308,php.net,usable,https://www.php.net/,36.7,69.2,No CMS/framework detected,,BunnyCDN-ES1-895,,reasonable,missing,strong,missing,missing,reasonable
+309,samsungcloud.com,usable,https://www.samsungcloud.com/,0.0,66.7,Other (analytics/CDN only),Google Analytics 4|Google Tag Manager,AmazonS3,,missing,missing,missing,missing,missing,missing
+310,ok.ru,usable,https://ok.ru,54.2,69.2,Other (analytics/CDN only),Google Tag Manager,kittenx,,strong,weak,strong,strong,missing,missing
+311,oxylabs.io,usable,https://oxylabs.io,80.8,92.3,Next.js,Next.js|Alpine.js,cloudflare,Next.js,strong,weak,strong,strong,strong,reasonable
+312,avast.com,usable,https://www.avast.com/es-es/index,50.0,75.0,No CMS/framework detected,,Apache,,strong,missing,strong,strong,missing,missing
+313,telegram.me,usable,https://telegram.org/,33.3,46.2,Other (analytics/CDN only),Bootstrap,nginx/1.30.1,,strong,missing,strong,missing,missing,missing
+314,appsflyer.com,usable,https://www.appsflyer.com:443/,26.7,83.3,WordPress,WordPress|jQuery|Google Tag Manager|Cloudflare,cloudflare,,reasonable,missing,missing,strong,missing,missing
+315,drom.ru,usable,https://www.drom.ru/,14.2,69.2,No CMS/framework detected,,QRATOR,,missing,weak,missing,missing,reasonable,missing
+316,virginm.net,not_a_website,,,,,,,,,,,,,
+317,crpt.ru,usable,https://crpt.ru,30.8,41.7,No CMS/framework detected,,ddos-guard,,missing,reasonable,weak,strong,missing,missing
+318,datadoghq.com,usable,https://www.datadoghq.com/,70.0,100.0,Other (analytics/CDN only),Alpine.js|Google Tag Manager,AmazonS3,,strong,reasonable,strong,strong,reasonable,missing
+319,mtgglobals.com,usable,https://www.mtgglobals.com,0.0,30.8,Nuxt.js,Nuxt.js|TailwindCSS,AmazonS3,,missing,missing,missing,missing,missing,missing
+320,shalltry.com,unreachable,,,,,,AmazonS3,,,,,,,
+321,heytapmobile.com,not_a_website,,,,,,,,,,,,,
+322,salesforce.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+323,ea.com,usable,https://www.ea.com/,36.7,84.6,Next.js,Next.js|Google Tag Manager,,Next.js,reasonable,reasonable,strong,missing,missing,missing
+324,capcutapi.com,not_a_website,,,,,,,,,,,,,
+325,samsungqbe.com,not_a_website,,,,,,,,,,,,,
+326,amazon.co.uk,thin_page,https://www.amazon.co.uk/,0.0,50.0,,,CloudFront,,missing,missing,missing,missing,missing,missing
+327,myshopify.com,unreachable,,,,,,cloudflare,,,,,,,
+328,googleblog.com,usable,https://blog.google/,4.2,83.3,No CMS/framework detected,,Google Frontend,,missing,weak,missing,missing,missing,missing
+329,launchdarkly.com,usable,https://launchdarkly.com,26.7,84.6,Next.js,Next.js|Google Tag Manager,Netlify,,reasonable,missing,missing,strong,missing,missing
+330,gnu.org,unreachable,,,,,,,,,,,,,
+331,aliyun.com,usable,https://www.alibabacloud.com/en,26.7,69.2,React,React|jQuery,Tengine,,reasonable,missing,missing,strong,missing,missing
+332,name.com,usable,https://www.name.com/,26.7,41.7,Nuxt.js,Sanity|Vue.js|Nuxt.js|Google Tag Manager,cloudflare,Nuxt,missing,reasonable,strong,missing,missing,missing
+333,douyincdn.com,not_a_website,,,,,,,,,,,,,
+334,smartadserver.com,unreachable,,,,,,cloudflare,,,,,,,
+335,yandexcloud.net,not_a_website,,,,,,,,,,,,,
+336,worldnic.com,unreachable,,,,,,,,,,,,,
+337,un.org,usable,https://www.un.org/,70.0,53.8,Other (analytics/CDN only),Bootstrap,Apache,,reasonable,reasonable,strong,strong,strong,missing
+338,crashlytics.com,usable,https://firebase.google.com/products/crashlytics/,37.5,84.6,No CMS/framework detected,,Google Frontend,,strong,weak,missing,strong,missing,missing
+339,bilibili.com,usable,https://www.bilibili.com/,0.0,61.5,Vue.js,Vue.js,,,missing,missing,missing,missing,missing,missing
+340,cdc.gov,unreachable,,,,,,AkamaiGHost,,,,,,,
+341,doubleverify.com,usable,https://doubleverify.com,70.0,84.6,Other (analytics/CDN only),Google Analytics 4|Google Tag Manager,cloudflare,,strong,reasonable,strong,strong,reasonable,missing
+342,inner-active.mobi,unreachable,,,,,,,,,,,,,
+343,weebly.com,usable,https://www.weebly.com/,16.7,76.9,No CMS/framework detected,,cloudflare,,missing,missing,strong,missing,missing,missing
+344,trustpilot.com,unreachable,,,,,,CloudFront,,,,,,,
+345,naver.com,usable,https://www.naver.com/,37.5,66.7,No CMS/framework detected,,nfront,,strong,missing,strong,missing,weak,missing
+346,akamaihd.net,not_a_website,,,,,,,,,,,,,
+347,checkpoint.com,usable,https://www.checkpoint.com/,80.0,84.6,WordPress,WordPress|Bootstrap|Google Tag Manager,nginx,WP Engine,strong,reasonable,strong,strong,reasonable,reasonable
+348,tbcache.com,unreachable,,,,,,,,,,,,,
+349,issuu.com,usable,https://issuu.com,37.5,46.2,Next.js,Next.js|Google Tag Manager,,,weak,missing,strong,strong,missing,missing
+350,trueconf.net,unreachable,,,,,,nginx,,,,,,,
+351,slack.com,usable,https://slack.com,50.0,76.9,No CMS/framework detected,,Apache,,strong,missing,strong,missing,strong,missing
+352,allawnos.com,not_a_website,,,,,,,,,,,,,
+353,wsj.com,unreachable,,,,,,CloudFront,,,,,,,
+354,opendns.com,usable,https://www.opendns.com:443/,43.3,84.6,No CMS/framework detected,,nginx,,reasonable,missing,strong,strong,missing,missing
+355,tradingview.com,usable,https://www.tradingview.com/,35.0,50.0,No CMS/framework detected,,tv,,strong,weak,missing,weak,reasonable,missing
+356,media.net,usable,https://www.media.net/,61.7,92.3,WordPress,WordPress|Google Tag Manager,,,weak,weak,strong,strong,reasonable,reasonable
+357,washingtonpost.com,unreachable,,,,,,,,,,,,,
+358,att.com,usable,https://www.att.com/,60.0,83.3,No CMS/framework detected,,,,reasonable,missing,strong,strong,strong,missing
+359,ioref.io,not_a_website,,,,,,,,,,,,,
+360,google.cn,thin_page,http://www.google.cn/,18.3,38.5,,,sffe,,missing,report-only,missing,strong,missing,missing
+361,bloomberg.com,blocked_inspection,https://www.bloomberg.com/,0.0,58.3,,Google Tag Manager,Varnish,,missing,missing,missing,missing,missing,missing
+362,stanford.edu,usable,https://www.stanford.edu/,74.2,84.6,Next.js,Next.js|Google Analytics 4,Netlify,Next.js,strong,weak,strong,strong,reasonable,reasonable
+363,indeed.com,blocked_inspection,https://indeed.com,0.0,53.8,,,cloudflare,,missing,missing,missing,missing,missing,missing
+364,calendly.com,usable,https://calendly.com,35.0,92.3,Astro,Astro|Google Tag Manager,cloudflare,,strong,report-only,missing,strong,missing,missing
+365,nvidia.com,usable,https://www.nvidia.com/es-es/,26.7,75.0,No CMS/framework detected,,Apache,,missing,reasonable,missing,strong,missing,missing
+366,walmart.com,usable,https://www.walmart.com/,46.7,84.6,Next.js,Next.js,,,reasonable,reasonable,strong,missing,missing,reasonable
+367,bluehost.com,unreachable,,,,,,cloudflare,,,,,,,
+368,geobasket.ru,not_a_website,,,,,,,,,,,,,
+369,cookiedatabase.org,unreachable,,,,,,,,,,,,,
+370,awswaf.com,not_a_website,,,,,,,,,,,,,
+371,quickconnect.to,usable,https://quickconnect.to,0.0,38.5,Other (analytics/CDN only),Google Analytics 4,nginx,,missing,missing,missing,missing,missing,missing
+372,samsungcloudsolution.com,not_a_website,,,,,,,,,,,,,
+373,zendesk.com,usable,https://www.zendesk.es/,20.8,75.0,Next.js,Next.js|Google Tag Manager,cloudflare,,missing,weak,missing,strong,missing,missing
+374,ip-api.com,usable,https://ip-api.com,0.0,61.5,No CMS/framework detected,,,,missing,missing,missing,missing,missing,missing
+375,plesk.com,usable,https://www.plesk.com/,53.3,75.0,WordPress,WordPress,cloudflare,"PHP/8.2.33, PleskLin",reasonable,reasonable,strong,strong,missing,missing
+376,dotaplabs.net,not_a_website,,,,,,,,,,,,,
+377,mi.com,usable,https://www.mi.com/es/,26.7,100.0,Other (analytics/CDN only),Google Analytics 4|Google Tag Manager,Tengine,,missing,reasonable,strong,missing,missing,missing
+378,amazon.de,thin_page,https://www.amazon.de/,0.0,50.0,,,CloudFront,,missing,missing,missing,missing,missing,missing
+379,onelink.me,usable,https://www.appsflyer.com/products/deep-linking/,26.7,76.9,WordPress,WordPress|jQuery|Google Tag Manager|Cloudflare,cloudflare,,reasonable,missing,missing,strong,missing,missing
+380,selectel.ru,usable,https://selectel.ru,37.5,41.7,Nuxt.js,Vue.js|Nuxt.js|TailwindCSS,,,strong,weak,missing,strong,missing,missing
+381,gitlab.com,usable,https://about.gitlab.com/,10.0,100.0,Nuxt.js,Vue.js|Nuxt.js,cloudflare,,reasonable,missing,missing,missing,missing,missing
+382,newrelic.com,usable,https://newrelic.com,43.3,91.7,Drupal,Drupal,,,strong,reasonable,missing,strong,missing,missing
+383,tiktokv.us,not_a_website,,,,,,,,,,,,,
+384,live-video.net,thin_page,https://live-video.net,0.0,58.3,,,AmazonS3,,missing,missing,missing,missing,missing,missing
+385,ezvizlife.com,usable,https://www.ezviz.com/,26.7,76.9,Other (analytics/CDN only),Google Tag Manager,Tengine,,missing,reasonable,strong,missing,missing,missing
+386,mynetname.net,not_a_website,,,,,,,,,,,,,
+387,tp-link.com,usable,https://www.tp-link.com/es/,26.7,76.9,No CMS/framework detected,,Apache,,strong,reasonable,missing,missing,missing,missing
+388,cdnbuild.net,not_a_website,,,,,,,,,,,,,
+389,namecheap.com,blocked_inspection,https://www.namecheap.com/,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+390,amazontrust.com,unreachable,,,,,,CloudFront,,,,,,,
+391,bsky.app,usable,https://bsky.app,50.0,75.0,No CMS/framework detected,,,,strong,missing,strong,strong,missing,missing
+392,yandex.com,usable,https://yandex.com,54.2,58.3,No CMS/framework detected,,,,strong,weak,strong,strong,missing,missing
+393,nasa.gov,usable,https://www.nasa.gov/,33.3,69.2,WordPress,WordPress|jQuery|Google Analytics 4|Google Tag Manager,nginx,,strong,missing,strong,missing,missing,missing
+394,dell.com,usable,https://www.dell.com/es-es,57.5,91.7,No CMS/framework detected,,,,weak,reasonable,missing,strong,strong,reasonable
+395,demdex.net,not_a_website,,,,,,,,,,,,,
+396,ibyteimg.com,not_a_website,,,,,,,,,,,,,
+397,kwai-pro.com,usable,https://hotvideo.kwai.com/,33.3,41.7,No CMS/framework detected,,,,missing,missing,strong,strong,missing,missing
+398,rocket-cdn.com,not_a_website,,,,,,,,,,,,,
+399,spaceweb.pro,unreachable,,,,,,,,,,,,,
+400,163.com,usable,http://www.163.com/,0.0,46.2,No CMS/framework detected,,Tengine,,missing,missing,missing,missing,missing,missing
+401,enacdn.net,not_a_website,,,,,,,,,,,,,
+402,vivoglobal.com,thin_page,https://vivoglobal.com,0.0,46.2,,,nginx,,missing,missing,missing,missing,missing,missing
+403,aliexpress.com,usable,https://es.aliexpress.com/,0.0,66.7,No CMS/framework detected,,Tengine/Aserver,,missing,missing,missing,missing,missing,missing
+404,unsplash.com,unreachable,,,,,,,,,,,,,
+405,ipify.org,usable,https://www.ipify.org/,0.0,61.5,Other (analytics/CDN only),jQuery|Bootstrap|Google Analytics 4|Cloudflare,AmazonS3,,missing,missing,missing,missing,missing,missing
+406,volcfcdndvs.com,not_a_website,,,,,,,,,,,,,
+407,netangels.ru,usable,https://www.netangels.ru/,0.0,76.9,Next.js,Next.js,ddos-guard,Next.js,missing,missing,missing,missing,missing,missing
+408,libp2p.direct,not_a_website,,,,,,,,,,,,,
+409,heytapdl.com,not_a_website,,,,,,,,,,,,,
+410,casalemedia.com,usable,https://www.indexexchange.com/,10.0,92.3,WordPress,WordPress|jQuery|Google Tag Manager,Pagely-ARES/1.22.28,,missing,reasonable,missing,missing,missing,missing
+411,dropcatch.com,usable,https://www.dropcatch.com/,20.8,66.7,No CMS/framework detected,,cloudflare,,missing,weak,strong,missing,missing,missing
+412,dailymotion.com,usable,https://www.dailymotion.com/,43.3,50.0,No CMS/framework detected,,DMS/2,Express,strong,reasonable,strong,missing,missing,missing
+413,globo.com,usable,https://www.globo.com/,26.7,75.0,React,React|Svelte|Google Analytics 4|Google Tag Manager,,,missing,reasonable,missing,strong,missing,missing
+414,line.me,usable,https://www.line.me/en/,10.0,69.2,Other (analytics/CDN only),Google Tag Manager,VOS,,reasonable,missing,missing,missing,missing,missing
+415,tiktokv.eu,not_a_website,,,,,,,,,,,,,
+416,dnspod.net,unreachable,,,,,,,,,,,,,
+417,huawei.com,usable,https://www.huawei.com/en/,0.0,84.6,No CMS/framework detected,,PAAS-WEB,,missing,missing,missing,missing,missing,missing
+418,beian.gov.cn,not_a_website,,,,,,,,,,,,,
+419,amazonalexa.com,usable,https://www.amazon.com:443/b,70.0,46.2,No CMS/framework detected,,Server,,strong,reasonable,strong,strong,missing,reasonable
+420,tiktokcdn-eu.com,not_a_website,,,,,,,,,,,,,
+421,kaspersky-labs.com,not_a_website,,,,,,,,,,,,,
+422,brave.com,usable,https://brave.com,70.8,84.6,No CMS/framework detected,,AmazonS3,,strong,weak,strong,strong,strong,missing
+423,gandi-ns.fr,not_a_website,,,,,,,,,,,,,
+424,temu.com,usable,https://www.temu.com/,10.0,25.0,No CMS/framework detected,,cloudflare,,reasonable,missing,missing,missing,missing,missing
+425,steamcommunity.com,usable,https://steamcommunity.com,20.8,69.2,No CMS/framework detected,,nginx,,missing,weak,strong,missing,missing,missing
+426,pangle.io,not_a_website,,,,,,,,,,,,,
+427,avcdn.net,not_a_website,,,,,,,,,,,,,
+428,taobao.com,usable,https://www.taobao.com/,10.0,50.0,No CMS/framework detected,,Tengine,,reasonable,missing,missing,missing,missing,missing
+429,expireddomains.com,blocked_inspection,https://expireddomains.com,0.0,50.0,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+430,online-metrix.net,not_a_website,,,,,,,,,,,,,
+431,ailawandorder.com,unreachable,,,,,,,,,,,,,
+432,espn.com,thin_page,https://espn.com,0.0,50.0,,,CloudFront,,missing,missing,missing,missing,missing,missing
+433,xboxlive.com,usable,https://www.xbox.com/es-ES/live,37.5,75.0,Angular,Strapi|Angular|jQuery|Cloudflare,,,weak,missing,strong,strong,missing,missing
+434,kwaipros.com,usable,https://hotvideo.kwai.com/,33.3,41.7,No CMS/framework detected,,,,missing,missing,strong,strong,missing,missing
+435,openx.net,unreachable,,,,,,,,,,,,,
+436,nflxvideo.net,unreachable,,,,,,,,,,,,,
+437,businessinsider.com,usable,https://www.businessinsider.es,33.3,84.6,Other (analytics/CDN only),Google Tag Manager,,,missing,missing,strong,missing,strong,missing
+438,shiabank.com,not_a_website,,,,,,,,,,,,,
+439,claude.ai,blocked_inspection,https://claude.ai,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+440,substack.com,usable,https://substack.com,26.7,61.5,Other (analytics/CDN only),TailwindCSS,cloudflare,Express,strong,reasonable,missing,missing,missing,missing
+441,avsxappcaptiveportal.com,unreachable,,,,,,,,,,,,,
+442,wp.com,usable,https://wordpress.com/,43.3,66.7,WordPress,WordPress,nginx,,reasonable,missing,strong,strong,missing,missing
+443,goodreads.com,usable,https://www.goodreads.com/,37.5,69.2,No CMS/framework detected,,Server,,strong,missing,strong,weak,missing,missing
+444,intel.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+445,paloaltonetworks.com,usable,https://www.paloaltonetworks.com,63.3,50.0,No CMS/framework detected,,Apache,,reasonable,reasonable,strong,strong,missing,reasonable
+446,ipinfo.io,usable,https://ipinfo.io,50.0,100.0,Next.js,Next.js|Alpine.js|Cloudflare,,Next.js,missing,missing,strong,strong,strong,missing
+447,g.page,usable,https://business.google.com/es/business-profile/,57.5,84.6,Other (analytics/CDN only),Google Tag Manager,ESF,,reasonable,weak,strong,strong,missing,reasonable
+448,pixabay.com,blocked_inspection,https://pixabay.com,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+449,vkuser.net,unreachable,,,,,,,,,,,,,
+450,sohu.com,usable,https://www.sohu.com/,16.7,53.8,No CMS/framework detected,,openresty,,missing,missing,missing,strong,missing,missing
+451,yahoo.co.jp,unreachable,,,,,,,,,,,,,
+452,wbx2.com,unreachable,,,,,,,,,,,,,
+453,chinamobile.com,unreachable,,,,,,,,,,,,,
+454,cloudns.net,usable,https://www.cloudns.net/,50.0,84.6,Other (analytics/CDN only),jQuery,nginx,,strong,missing,strong,strong,missing,missing
+455,go.com,usable,https://www.go.com/,0.0,84.6,No CMS/framework detected,,nginx,,missing,missing,missing,missing,missing,missing
+456,sina.com.cn,usable,https://www.sina.com.cn/,0.0,30.8,Other (analytics/CDN only),BigCommerce,Tengine,shci_v1.13,missing,missing,missing,missing,missing,missing
+457,speedtest.net,usable,https://www.speedtest.net/,86.7,92.3,Other (analytics/CDN only),Google Tag Manager,cloudflare,,strong,reasonable,strong,strong,strong,reasonable
+458,netease.com,usable,https://www.netease.com,0.0,23.1,No CMS/framework detected,,nginx,,missing,missing,missing,missing,missing,missing
+459,awsglobalaccelerator.com,not_a_website,,,,,,,,,,,,,
+460,list-manage.com,unreachable,,,,,,,,,,,,,
+461,skyhigh.cloud,usable,https://www.skyhighsecurity.com,16.7,83.3,WordPress,WordPress|jQuery|Google Tag Manager,cloudflare,,missing,missing,missing,strong,missing,missing
+462,cnbc.com,usable,https://www.cnbc.com/world/,10.0,58.3,No CMS/framework detected,,,,missing,reasonable,missing,missing,missing,missing
+463,featureassets.org,unreachable,,,,,,,,,,,,,
+464,mikrotik.com,usable,https://mikrotik.com,20.8,61.5,Other (analytics/CDN only),Alpine.js,,,strong,weak,missing,missing,missing,missing
+465,byteglb.com,not_a_website,,,,,,,,,,,,,
+466,gamepass.com,usable,https://www.xbox.com/es-ES/xbox-game-pass,37.5,75.0,Angular,Strapi|Angular|jQuery|Cloudflare,,,weak,missing,strong,strong,missing,missing
+467,eye4.cn,unreachable,,,,,,Apache,,,,,,,
+468,statista.com,not_a_website,,,,,,,,,,,,,
+469,nflximg.com,unreachable,,,,,,,,,,,,,
+470,timeweb.ru,usable,https://timeweb.com/,47.5,69.2,Next.js,Next.js,QRATOR,,reasonable,weak,strong,strong,missing,missing
+471,ietf.org,usable,https://www.ietf.org/,50.0,76.9,No CMS/framework detected,,cloudflare,,missing,missing,strong,strong,strong,missing
+472,firetvcaptiveportal.com,unreachable,,,,,,,,,,,,,
+473,kwai.net,unreachable,,,,,,,,,,,,,
+474,arxiv.org,usable,https://arxiv.org,26.7,53.8,No CMS/framework detected,,Google Frontend,,missing,reasonable,strong,missing,missing,missing
+475,xcal.tv,not_a_website,,,,,,,,,,,,,
+476,dual-s-msedge.net,not_a_website,,,,,,,,,,,,,
+477,adobe.net,unreachable,,,,,,,,,,,,,
+478,addtoany.com,usable,https://www.addtoany.com/,33.3,84.6,Other (analytics/CDN only),Cloudflare,cloudflare,,strong,missing,missing,strong,missing,missing
+479,edgecdn.ru,unreachable,,,,,,,,,,,,,
+480,myqcloud.com,not_a_website,,,,,,,,,,,,,
+481,squarespacedns.com,not_a_website,,,,,,,,,,,,,
+482,adriver.ru,usable,https://www.adriver.ru/,0.0,53.8,WordPress,WordPress|jQuery|Bootstrap|Cloudflare,nginx,,missing,missing,missing,missing,missing,missing
+483,ui-dns.com,not_a_website,,,,,,,,,,,,,
+484,duolingo.com,usable,https://www.duolingo.com/,16.7,66.7,No CMS/framework detected,,duo-api,,missing,missing,strong,missing,missing,missing
+485,docker.com,usable,https://www.docker.com/,70.0,83.3,No CMS/framework detected,,nginx,,reasonable,missing,strong,strong,strong,reasonable
+486,ivi.ru,usable,https://www.ivi.tv/,1.7,61.5,Other (analytics/CDN only),Google Tag Manager,QRATOR,,missing,report-only,missing,missing,missing,missing
+487,quora.com,blocked_inspection,https://www.quora.com/,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+488,nease.net,unreachable,,,,,,,,,,,,,
+489,sc-gw.com,not_a_website,,,,,,,,,,,,,
+490,npr.org,usable,https://www.npr.org/,26.7,76.9,Other (analytics/CDN only),Google Analytics 4|Google Tag Manager|Stripe,nginx,,missing,missing,missing,strong,reasonable,missing
+491,mysql.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+492,scribd.com,usable,https://www.scribd.com/,16.7,92.3,Next.js,Next.js|Google Tag Manager|Stripe,,,strong,missing,missing,missing,missing,missing
+493,eventbrite.com,usable,https://www.eventbrite.com,16.7,92.3,Next.js,Next.js,CloudFront,Next.js,strong,missing,missing,missing,missing,missing
+494,amazon.co.jp,thin_page,https://www.amazon.co.jp/,0.0,50.0,,,AkamaiGHost,,missing,missing,missing,missing,missing,missing
+495,tencent-cloud.net,not_a_website,,,,,,,,,,,,,
+496,markmonitor.com,blocked_inspection,https://markmonitor.com,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+497,supercell.com,usable,https://supercell.com,0.0,76.9,Next.js,Next.js,AmazonS3,,missing,missing,missing,missing,missing,missing
+498,aol.com,usable,https://www.aol.com:443/,53.3,76.9,Next.js,Next.js,envoy,,reasonable,missing,strong,strong,reasonable,missing
+499,myhuaweicloud.com,not_a_website,,,,,,,,,,,,,
+500,stackoverflow.com,blocked_inspection,https://stackoverflow.com/questions,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+501,atlassian.net,usable,https://www.atlassian.com/software,47.5,75.0,No CMS/framework detected,,AtlassianEdge,,reasonable,weak,strong,strong,missing,missing
+502,licdn.com,not_a_website,,,,,,,,,,,,,
+503,gcdn.co,unreachable,,,,,,,,,,,,,
+504,shein.com,usable,https://es.shein.com/,53.3,75.0,Next.js,Next.js|Vue.js,cloudflare,,strong,reasonable,missing,strong,reasonable,missing
+505,ampproject.org,usable,https://amp.dev/,26.7,75.0,No CMS/framework detected,,Netlify,,reasonable,missing,missing,strong,missing,missing
+506,behance.net,usable,https://www.behance.net/,45.0,75.0,No CMS/framework detected,,adobe,,reasonable,report-only,strong,strong,missing,missing
+507,bdydns.com,not_a_website,,,,,,,,,,,,,
+508,exp-tas.com,not_a_website,,,,,,,,,,,,,
+509,mediatek.com,usable,https://www.mediatek.com/,57.5,92.9,Other (analytics/CDN only),Google Analytics 4|Google Tag Manager|Cloudflare,cloudflare,,reasonable,weak,strong,strong,reasonable,missing
+510,amzn.to,thin_page,https://www.amazon.com/,0.0,50.0,,,CloudFront,,missing,missing,missing,missing,missing,missing
+511,mcafee.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+512,google.de,usable,https://www.google.com/,28.3,33.3,No CMS/framework detected,,gws,,missing,report-only,strong,missing,missing,reasonable
+513,shopifysvc.com,not_a_website,,,,,,,,,,,,,
+514,foxnews.com,usable,https://www.foxnews.com/,14.2,83.3,No CMS/framework detected,,,,weak,missing,missing,missing,missing,reasonable
+515,indiatimes.com,usable,https://www.indiatimes.com/,40.8,92.3,Other (analytics/CDN only),Google Tag Manager,Bhoot,,reasonable,missing,strong,weak,missing,reasonable
+516,google.com.hk,usable,https://www.google.com.hk/,38.3,33.3,No CMS/framework detected,,gws,,reasonable,report-only,strong,missing,missing,reasonable
+517,impervadns.net,not_a_website,,,,,,,,,,,,,
+518,ft.com,unreachable,,,,,,cloudflare,,,,,,,
+519,blogger.com,usable,https://www.blogger.com/about/,20.8,76.9,Other (analytics/CDN only),Google Analytics 4,sffe,,missing,weak,missing,strong,missing,missing
+520,gosuslugi.ru,usable,https://gosuslugi.ru,10.0,58.3,No CMS/framework detected,,Angie,,reasonable,missing,missing,missing,missing,missing
+521,run.app,unreachable,,,,,,,,,,,,,
+522,dynatrace.com,usable,https://www.dynatrace.com/,76.7,100.0,Nuxt.js,Nuxt.js|Google Tag Manager|Hotjar|Cloudflare,AmazonS3,,strong,reasonable,strong,strong,strong,missing
+523,vercel-dns-016.com,not_a_website,,,,,,,,,,,,,
+524,adobedtm.com,not_a_website,,,,,,,,,,,,,
+525,ipv4only.arpa,not_a_website,,,,,,,,,,,,,
+526,firefox.com,usable,https://www.firefox.com/en-US/,64.2,100.0,No CMS/framework detected,,granian,,reasonable,weak,strong,strong,strong,missing
+527,slideshare.net,blocked_inspection,https://slideshare.net,16.7,46.2,,,,,strong,missing,missing,missing,missing,missing
+528,fandom.com,blocked_inspection,https://www.fandom.com/,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+529,visualstudio.com,usable,https://visualstudio.microsoft.com/,45.0,75.0,WordPress,WordPress|jQuery,nginx,WP Engine,reasonable,weak,strong,weak,reasonable,missing
+530,duckduckgo.com,usable,https://duckduckgo.com,67.5,84.6,Next.js,Next.js,nginx,,reasonable,weak,strong,strong,reasonable,reasonable
+531,amazon.co.za,thin_page,https://www.amazon.co.za/,0.0,50.0,,,CloudFront,,missing,missing,missing,missing,missing,missing
+532,okta.com,usable,https://www.okta.com/,66.7,76.9,Other (analytics/CDN only),Google Tag Manager,cloudflare,,strong,missing,strong,strong,strong,missing
+533,ngenix.net,unreachable,,,,,,nginx,,,,,,,
+534,discord.media,unreachable,,,,,,cloudflare,,,,,,,
+535,trendmicro.com,usable,https://www.trendmicro.com/es_es/business.html,20.8,71.4,No CMS/framework detected,,nginx,,missing,weak,missing,strong,missing,missing
+536,wired.com,usable,https://www.wired.com/,16.7,75.0,No CMS/framework detected,,cloudflare,,missing,missing,missing,strong,missing,missing
+537,squarespace.com,usable,https://www.squarespace.com/,26.7,84.6,Squarespace,Squarespace|Google Tag Manager,Squarespace,,reasonable,missing,missing,strong,missing,missing
+538,capcut.com,usable,https://www.capcut.com/,54.2,41.7,No CMS/framework detected,,TLB,,strong,weak,strong,strong,missing,missing
+539,jquery.com,usable,https://jquery.com,4.2,61.5,WordPress,WordPress,cloudflare,PHP/8.4.24,missing,weak,missing,missing,missing,missing
+540,patreon.com,usable,https://www.patreon.com/,37.5,78.6,Next.js,Strapi|Next.js,cloudflare,,weak,missing,missing,strong,strong,missing
+541,oup.com,usable,https://corp.oup.com,0.0,76.9,WordPress,WordPress|jQuery|Google Analytics 4|Google Tag Manager|Cloudflare,cloudflare,WP Engine,missing,missing,missing,missing,missing,missing
+542,cloudflareinsights.com,usable,https://cloudflareinsights.com,0.0,23.1,Other (analytics/CDN only),Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+543,sberbank.ru,unreachable,,,,,,,,,,,,,
+544,svc.ms,not_a_website,,,,,,,,,,,,,
+545,vkontakte.ru,usable,https://vk.ru/,30.8,41.7,No CMS/framework detected,,kittenx,KPHP/7.4.127396,reasonable,weak,strong,missing,missing,missing
+546,elasticbeanstalk.com,unreachable,,,,,,,,,,,,,
+547,beyondwickedmapping.org,unreachable,,,,,,,,,,,,,
+548,hicloud.com,not_a_website,,,,,,,,,,,,,
+549,supertms.com,not_a_website,,,,,,,,,,,,,
+550,fast.com,usable,https://fast.com,10.0,66.7,No CMS/framework detected,,AmazonS3,,reasonable,missing,missing,missing,missing,missing
+551,tplinkcloud.com,usable,https://www.tplinkcloud.com/,0.0,23.1,Other (analytics/CDN only),Google Analytics 4,Apache,,missing,missing,missing,missing,missing,missing
+552,live.net,not_a_website,,,,,,,,,,,,,
+553,tandfonline.com,blocked_inspection,https://tandfonline.com,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+554,time.com,usable,https://time.com,33.3,92.3,Next.js,Next.js|Google Tag Manager,,Next.js,strong,missing,missing,strong,missing,missing
+555,t-mobile.com,unreachable,,,,,,,,,,,,,
+556,cookielaw.org,unreachable,,,,,,,,,,,,,
+557,noaa.gov,usable,https://www.noaa.gov/,43.3,84.6,Drupal,Drupal|jQuery,Apache,,reasonable,missing,strong,strong,missing,missing
+558,palmplaystore.com,usable,https://palmplaystore.com,0.0,50.0,No CMS/framework detected,,,Nuxt,missing,missing,missing,missing,missing,missing
+559,vidaahub.com,not_a_website,,,,,,,,,,,,,
+560,cornell.edu,usable,https://www.cornell.edu/,0.0,61.5,Other (analytics/CDN only),Google Tag Manager|Cloudflare,,,missing,missing,missing,missing,missing,missing
+561,usatoday.com,usable,https://eu.usatoday.com/,24.2,76.9,No CMS/framework detected,,,,weak,reasonable,missing,missing,missing,reasonable
+562,share.google,thin_page,https://share.google,20.8,53.8,,,sffe,,missing,weak,missing,strong,missing,missing
+563,on.aws,not_a_website,,,,,,,,,,,,,
+564,deviantart.com,unreachable,,,,,,CloudFront,,,,,,,
+565,360yield.com,usable,https://ssp.improvedigital.com/login,8.3,41.7,No CMS/framework detected,,Apache,,weak,weak,missing,missing,missing,missing
+566,2gis.com,usable,https://2gis.ae/museum,43.3,41.7,No CMS/framework detected,,nginx,,reasonable,missing,strong,strong,missing,missing
+567,e2ro.com,not_a_website,,,,,,,,,,,,,
+568,tripadvisor.com,unreachable,,,,,,DataDome,,,,,,,
+569,eset.com,usable,https://www.eset.com/us/,57.5,83.3,No CMS/framework detected,,,,reasonable,weak,strong,strong,reasonable,missing
+570,dreamhost.com,unreachable,,,,,,,,,,,,,
+571,nstld.com,not_a_website,,,,,,,,,,,,,
+572,aboutads.info,usable,https://youradchoices.com/,30.8,53.8,Drupal,Drupal|jQuery|Google Analytics 4,nginx,,missing,missing,strong,weak,missing,reasonable
+573,uol.com.br,usable,https://www.uol.com.br/,36.7,100.0,Vue.js,Vue.js,,,strong,reasonable,missing,missing,reasonable,missing
+574,icloud-content.com,usable,https://developer.apple.com/icloud/,41.7,76.9,No CMS/framework detected,,Apple,,strong,weak,weak,strong,missing,missing
+575,rakuten.co.jp,unreachable,,,,,,AkamaiNetStorage,,,,,,,
+576,teamviewer.com,usable,https://www.teamviewer.com/es/,60.0,76.9,No CMS/framework detected,,cloudflare,,strong,missing,strong,strong,reasonable,missing
+577,grammarly.com,usable,https://www.grammarly.com/,53.3,84.6,Next.js,Contentful|Next.js,,,strong,reasonable,missing,strong,reasonable,missing
+578,azure-dns.com,not_a_website,,,,,,,,,,,,,
+579,berkeley.edu,unreachable,,,,,,cloudflare,WP Engine,,,,,,
+580,oraclecloud.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+581,qlivecdn.com,not_a_website,,,,,,,,,,,,,
+582,yahoodns.net,not_a_website,,,,,,,,,,,,,
+583,adobedc.net,not_a_website,,,,,,,,,,,,,
+584,target.com,usable,https://www.target.com/,70.0,76.9,Next.js,Next.js,,,strong,reasonable,strong,strong,reasonable,missing
+585,3lift.com,thin_page,https://3lift.com,0.0,25.0,,,AmazonS3,,missing,missing,missing,missing,missing,missing
+586,rlcdn.com,not_a_website,,,,,,,,,,,,,
+587,shopee.com.br,usable,https://shopee.com.br,53.3,33.3,React,React|Google Tag Manager,SGW,,reasonable,reasonable,missing,strong,strong,missing
+588,hotjar.com,usable,https://contentsquare.com/hotjar/,10.0,76.9,Next.js,Contentful|Next.js,Vercel,,reasonable,missing,missing,missing,missing,missing
+589,ca.gov,unreachable,,,,,,,,,,,,,
+590,ieee.org,thin_page,https://www.ieee.org/,0.0,50.0,,,CloudFront,,missing,missing,missing,missing,missing,missing
+591,telegraph.co.uk,unreachable,,,,,,,,,,,,,
+592,my.com,not_a_website,,,,,,,,,,,,,
+593,digitalocean.com,usable,https://www.digitalocean.com/,20.8,76.9,Next.js,Next.js,cloudflare,Next.js,missing,weak,strong,missing,missing,missing
+594,pushy.io,usable,https://pushy.me/,0.0,57.1,Other (analytics/CDN only),jQuery|Bootstrap,nginx/1.14.1,,missing,missing,missing,missing,missing,missing
+595,playstation.com,usable,https://www.playstation.com/es-es/,70.0,46.2,No CMS/framework detected,,,,strong,missing,strong,strong,reasonable,reasonable
+596,xiaomi.net,unreachable,,,,,,,,,,,,,
+597,avito.ru,blocked_inspection,https://www.avito.ru/,0.0,46.2,,,QRATOR,,missing,missing,missing,missing,missing,missing
+598,easebar.com,not_a_website,,,,,,,,,,,,,
+599,samsungapps.com,unreachable,,,,,,,,,,,,,
+600,t-msedge.net,not_a_website,,,,,,,,,,,,,
+601,imgsmail.ru,thin_page,https://account.mail.ru/login,37.5,41.7,,,nginx,,strong,weak,missing,strong,missing,missing
+602,wix.com,usable,https://www.wix.com/,36.7,41.7,Wix,Wix,Pepyaka,,reasonable,missing,missing,strong,reasonable,missing
+603,mdpi.com,unreachable,,,,,,,,,,,,,
+604,klaviyo.com,usable,https://www.klaviyo.com/,68.3,84.6,Astro,WooCommerce|Sanity|Astro|Google Tag Manager,cloudflare,,strong,report-only,strong,strong,strong,missing
+605,threads.com,usable,https://www.threads.com/,54.2,41.7,No CMS/framework detected,,,,strong,weak,strong,strong,missing,missing
+606,force.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+607,amazon.fr,thin_page,https://www.amazon.fr/,0.0,50.0,,,CloudFront,,missing,missing,missing,missing,missing,missing
+608,webempresa.eu,usable,https://www.webempresa.com,10.0,41.7,WordPress,WordPress,nginx,,missing,missing,missing,missing,missing,reasonable
+609,accuweather.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+610,loc.gov,blocked_inspection,https://loc.gov,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+611,nintendo.com,usable,https://www.nintendo.com/es-es/,74.2,50.0,Other (analytics/CDN only),TailwindCSS,,,reasonable,weak,strong,strong,strong,reasonable
+612,atlassian.com,usable,https://www.atlassian.com/,47.5,75.0,No CMS/framework detected,,AtlassianEdge,,reasonable,weak,strong,strong,missing,missing
+613,anthropic.com,unreachable,,,,,,cloudflare,,,,,,,
+614,cdn20.com,not_a_website,,,,,,,,,,,,,
+615,unesco.org,usable,https://www.unesco.org/en,20.8,69.2,Drupal,Drupal|Angular|Google Tag Manager,,,missing,missing,strong,weak,missing,missing
+616,onetrust.com,usable,https://www.onetrust.com/,51.7,84.6,Other (analytics/CDN only),Cloudflare,cloudflare,,strong,weak,weak,strong,missing,reasonable
+617,surveymonkey.com,usable,https://www.surveymonkey.com/,54.2,92.3,Next.js,Next.js,nginx,,strong,weak,missing,strong,strong,missing
+618,jotform.com,usable,https://www.jotform.com/,74.2,83.3,No CMS/framework detected,,,,reasonable,weak,strong,strong,strong,reasonable
+619,msidentity.com,not_a_website,,,,,,,,,,,,,
+620,ikea.com,usable,https://www.ikea.com/,20.8,92.3,Svelte,Svelte|Astro,cloudflare,,strong,weak,missing,missing,missing,missing
+621,uk.com,usable,https://uk.com,0.0,76.9,Other (analytics/CDN only),Google Tag Manager,nginx,,missing,missing,missing,missing,missing,missing
+622,sharethrough.com,unreachable,,,,,,cloudflare,,,,,,,
+623,alicdn.com,unreachable,,,,,,,,,,,,,
+624,free.fr,usable,https://www.free.fr/,33.3,84.6,Next.js,Strapi|Next.js,nginx,,missing,missing,strong,strong,missing,missing
+625,braze.com,usable,https://www.braze.com/,10.0,78.6,Next.js,Sanity|Next.js|Vue.js|Google Tag Manager,cloudflare,Next.js,reasonable,missing,missing,missing,missing,missing
+626,sagepub.com,usable,https://www.sagepub.com/,8.3,84.6,Other (analytics/CDN only),Bootstrap|Cloudflare,Microsoft-IIS/10.0,ASP.NET,weak,weak,missing,missing,missing,missing
+627,cdnvideo.ru,unreachable,,,,,,nginx,PHP/8.2.20,,,,,,
+628,translate.goog,unreachable,,,,,,,,,,,,,
+629,withgoogle.com,usable,https://www.google.com/,28.3,33.3,No CMS/framework detected,,gws,,missing,report-only,strong,missing,missing,reasonable
+630,googlezip.net,not_a_website,,,,,,,,,,,,,
+631,dyndns.org,usable,https://account.dyn.com/,43.3,61.5,No CMS/framework detected,,Apache/2.4.62 (Oracle Linux Server) mod_apreq2-20101207/2.8.1 mod_perl/2.0.12 Perl/v5.32.1,,reasonable,missing,strong,strong,missing,missing
+632,amazon.ca,thin_page,https://www.amazon.ca/,0.0,50.0,,,CloudFront,,missing,missing,missing,missing,missing,missing
+633,bidswitch.net,not_a_website,,,,,,,,,,,,,
+634,techcrunch.com,usable,https://techcrunch.com,61.7,91.7,WordPress,WordPress|Google Tag Manager|Cloudflare,nginx,WordPress VIP <https://wpvip.com>,weak,weak,strong,strong,reasonable,reasonable
+635,360.cn,usable,https://www.360.cn,16.7,53.8,No CMS/framework detected,,nginx,,missing,missing,strong,missing,missing,missing
+636,tencent.com,unreachable,,,,,,nginx,,,,,,,
+637,ovh.net,usable,https://proof.ovh.net,0.0,46.2,No CMS/framework detected,,nginx,,missing,missing,missing,missing,missing,missing
+638,branch.io,usable,https://www.branch.io/,63.3,75.0,WordPress,WordPress,cloudflare,,reasonable,missing,strong,strong,reasonable,reasonable
+639,twc.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+640,tld-servers.ru,not_a_website,,,,,,,,,,,,,
+641,hostgator.com.br,usable,https://www.hostgator.com.br/,60.0,92.3,Next.js,WooCommerce|PrestaShop|Next.js|Google Tag Manager,cloudflare,,reasonable,missing,strong,strong,strong,missing
+642,britannica.com,blocked_inspection,https://www.britannica.com:443/,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+643,bx-msedge.net,not_a_website,,,,,,,,,,,,,
+644,dailymail.co.uk,usable,https://www.dailymail.com/home/index.html,1.7,50.0,No CMS/framework detected,,,,missing,report-only,missing,missing,missing,missing
+645,googletagservices.com,not_a_website,,,,,,,,,,,,,
+646,mhverifier.ru,unreachable,,,,,,nginx,,,,,,,
+647,yelp.com,unreachable,,,,,,DataDome,,,,,,,
+648,ups.com,unreachable,,,,,,,,,,,,,
+649,vedsalb.com,not_a_website,,,,,,,,,,,,,
+650,redhat.com,usable,https://www.redhat.com/en,64.2,83.3,Drupal,Drupal,Apache,,reasonable,weak,strong,strong,strong,missing
+651,vercel-dns-3.com,not_a_website,,,,,,,,,,,,,
+652,elpais.com,usable,https://elpais.com,0.0,76.9,No CMS/framework detected,,,,missing,missing,missing,missing,missing,missing
+653,service.gov.uk,usable,https://www.gov.uk,74.2,76.9,Angular,Angular|Google Analytics 4,nginx,,reasonable,weak,strong,strong,strong,reasonable
+654,wswebcdn.com,not_a_website,,,,,,,,,,,,,
+655,imgur.com,usable,https://imgur.com,30.8,75.0,Other (analytics/CDN only),Google Tag Manager,cat factory 1.0,,weak,reasonable,strong,missing,missing,missing
+656,nike.com,usable,https://www.nike.com/es/,40.8,92.3,Next.js,React|Next.js|Cloudflare,unified-edge-router,Next.js,weak,reasonable,strong,missing,missing,reasonable
+657,cambridge.org,unreachable,,,,,,cloudflare,,,,,,,
+658,shop.app,blocked_inspection,https://shop.app,0.0,58.3,,,cloudflare,,missing,missing,missing,missing,missing,missing
+659,stackadapt.com,usable,https://www.stackadapt.com/,26.7,83.3,WordPress,WordPress|Google Tag Manager,StackAdapt,,reasonable,missing,missing,strong,missing,missing
+660,hstgr.net,unreachable,,,,,,,,,,,,,
+661,pvp.net,not_a_website,,,,,,,,,,,,,
+662,amazon.in,thin_page,https://www.amazon.in/,0.0,50.0,,,AkamaiGHost,,missing,missing,missing,missing,missing,missing
+663,viber.com,usable,https://www.viber.com/en/,33.3,84.6,WordPress,WordPress|Google Tag Manager,nginx,,missing,missing,strong,strong,missing,missing
+664,intercom.io,unreachable,,,,,,Vercel,Next.js,,,,,,
+665,bitrix24.ru,usable,https://www.bitrix24.ru/,20.8,83.3,Other (analytics/CDN only),Google Tag Manager,QRATOR,,missing,weak,strong,missing,missing,missing
+666,anydesk.com,blocked_inspection,https://anydesk.com,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+667,primevideo.com,usable,https://www.primevideo.com/offers/nonprimehomepage,61.7,33.3,No CMS/framework detected,,Server,,strong,report-only,strong,strong,missing,reasonable
+668,cbsnews.com,usable,https://www.cbsnews.com/,16.7,92.3,Angular,Angular,,,missing,missing,missing,strong,missing,missing
+669,vercel.app,usable,https://vercel.com,64.2,92.3,Next.js,Next.js|Vercel,Vercel,"Next.js, Payload",strong,weak,strong,strong,reasonable,missing
+670,outbrain.com,usable,https://www.outbrain.com/,20.8,71.4,Other (analytics/CDN only),Google Tag Manager,,,weak,missing,strong,missing,missing,missing
+671,cmediahub.ru,not_a_website,,,,,,,,,,,,,
+672,bytedns1.com,not_a_website,,,,,,,,,,,,,
+673,fontawesome.com,usable,https://fontawesome.com,66.7,83.3,Other (analytics/CDN only),Google Analytics 4|Stripe,cloudflare,,strong,missing,strong,strong,strong,missing
+674,mobile.de,unreachable,,,,,,AkamaiGHost,,,,,,,
+675,twimg.com,not_a_website,,,,,,,,,,,,,
+676,typekit.net,unreachable,,,,,,,,,,,,,
+677,mega.co.nz,usable,https://mega.co.nz,37.5,33.3,No CMS/framework detected,,,,strong,weak,strong,missing,missing,missing
+678,footprintdns.com,not_a_website,,,,,,,,,,,,,
+679,optimizely.com,usable,https://www.optimizely.com/,14.2,84.6,Next.js,Next.js|Google Tag Manager,Vercel,Next.js,reasonable,weak,missing,missing,missing,missing
+680,perplexity.ai,blocked_inspection,https://www.perplexity.ai/,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+681,xhamster.com,usable,https://xhamster.com,53.3,66.7,No CMS/framework detected,,cloudflare,,strong,reasonable,strong,missing,missing,reasonable
+682,cnet.com,usable,https://www.cnet.com/,14.2,84.6,WordPress,WordPress|Alpine.js,nginx,,weak,missing,missing,missing,reasonable,missing
+683,dotomi.com,unreachable,,,,,,CloudFront,,,,,,,
+684,fb.com,unreachable,,,,,,,,,,,,,
+685,lemonde.fr,usable,https://www.lemonde.fr/,47.5,75.0,No CMS/framework detected,,,,reasonable,weak,strong,strong,missing,missing
+686,telephony.goog,unreachable,,,,,,,,,,,,,
+687,hihonorcloud.com,usable,https://hihonorcloud.com,43.3,50.0,No CMS/framework detected,,nginx/1.18.0 (Ubuntu),,strong,missing,missing,strong,reasonable,missing
+688,linode.com,unreachable,,,,,,,,,,,,,
+689,independent.co.uk,usable,https://www.independent.co.uk/,67.5,92.9,Next.js,Next.js|Google Analytics 4,,,reasonable,weak,strong,strong,reasonable,reasonable
+690,dailymail.com,usable,https://www.dailymail.com/home/index.html,1.7,50.0,No CMS/framework detected,,,,missing,report-only,missing,missing,missing,missing
+691,pinimg.com,usable,https://www.pinterest.com/,64.2,75.0,No CMS/framework detected,,,,strong,weak,strong,strong,reasonable,missing
+692,meta.com,unreachable,,,,,,,,,,,,,
+693,allegro.pl,unreachable,,,,,,,,,,,,,
+694,g.co,thin_page,https://g.co,28.3,46.2,,,sffe,,reasonable,report-only,missing,strong,missing,missing
+695,wattpad.com,usable,https://www.wattpad.com/,33.3,61.5,No CMS/framework detected,,openresty,wp,strong,missing,strong,missing,missing,missing
+696,ks-cdn.com,not_a_website,,,,,,,,,,,,,
+697,id5-sync.com,thin_page,https://id5-sync.com,16.7,25.0,,,,,strong,missing,missing,missing,missing,missing
+698,consultant.ru,usable,https://www.consultant.ru/,0.0,53.8,No CMS/framework detected,,nginx,,missing,missing,missing,missing,missing,missing
+699,mailchimp.com,usable,https://mailchimp.com/es/,26.7,83.3,Other (analytics/CDN only),Google Analytics 4,istio-envoy,,reasonable,missing,strong,missing,missing,missing
+700,nel.goog,not_a_website,,,,,,,,,,,,,
+701,quantserve.com,unreachable,,,,,,,,,,,,,
+702,kick.com,usable,https://kick.com,0.0,84.6,Next.js,Next.js|Angular|Google Analytics 4|Google Tag Manager,cloudflare,,missing,missing,missing,missing,missing,missing
+703,blackhub.team,unreachable,,,,,,cloudflare,,,,,,,
+704,fifa.com,usable,https://www.fifa.com/,64.2,41.7,No CMS/framework detected,,,,reasonable,weak,strong,strong,strong,missing
+705,globalsign.com,usable,https://www.globalsign.com/en,16.7,71.4,Other (analytics/CDN only),jQuery|Bootstrap|Google Tag Manager,nginx,,missing,missing,strong,missing,missing,missing
+706,wps.com,usable,https://www.wps.com/,4.2,92.3,Nuxt.js,Vue.js|Nuxt.js|Angular,elb,Nuxt,missing,weak,missing,missing,missing,missing
+707,mobolize.com,usable,https://www.mobolize.com/,10.0,69.2,WordPress,WordPress|WooCommerce|jQuery|Google Analytics 4,Apache,PHP/7.4.33,missing,reasonable,missing,missing,missing,missing
+708,magnit.ru,usable,https://magnit.ru,64.2,69.2,Nuxt.js,Vue.js|Nuxt.js,QRATOR,Nuxt,strong,weak,strong,strong,reasonable,missing
+709,dbankcloud.com,not_a_website,,,,,,,,,,,,,
+710,ya.ru,usable,https://ya.ru,54.2,66.7,No CMS/framework detected,,,,strong,weak,strong,strong,missing,missing
+711,amazon.it,thin_page,https://www.amazon.it/,0.0,50.0,,,CloudFront,,missing,missing,missing,missing,missing,missing
+712,resolver.arpa,not_a_website,,,,,,,,,,,,,
+713,iso.org,blocked_inspection,https://iso.org,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+714,comcast.com,unreachable,,,,,,,,,,,,,
+715,openstreetmap.org,usable,https://www.openstreetmap.org/,70.8,71.4,No CMS/framework detected,,Apache,Phusion Passenger(R) 6.2.0,strong,weak,strong,strong,strong,missing
+716,amazon.es,thin_page,https://www.amazon.es/,0.0,50.0,,,CloudFront,,missing,missing,missing,missing,missing,missing
+717,marriott.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+718,itch.io,usable,https://itch.io,43.3,76.9,No CMS/framework detected,,cloudflare,,missing,missing,strong,strong,reasonable,missing
+719,vercel-dns-017.com,not_a_website,,,,,,,,,,,,,
+720,parklogic.com,usable,https://parklogic.com,0.0,41.7,Other (analytics/CDN only),Cloudflare,,,missing,missing,missing,missing,missing,missing
+721,seznam.cz,usable,https://www.seznam.cz/,43.3,76.9,No CMS/framework detected,,envoy,,strong,reasonable,strong,missing,missing,missing
+722,1rx.io,not_a_website,,,,,,,,,,,,,
+723,sophos.com,unreachable,,,,,,,,,,,,,
+724,crwdcntrl.net,unreachable,,,,,,,,,,,,,
+725,samsungacr.com,not_a_website,,,,,,,,,,,,,
+726,creativecdn.com,thin_page,https://creativecdn.com,0.0,25.0,,,,,missing,missing,missing,missing,missing,missing
+727,agkn.com,not_a_website,,,,,,,,,,,,,
+728,bandcamp.com,usable,https://bandcamp.com,36.7,69.2,Vue.js,Vue.js,nginx,,reasonable,strong,missing,missing,reasonable,missing
+729,stripchat.com,usable,https://stripchat.com,33.3,91.7,Other (analytics/CDN only),Cloudflare,cloudflare,,strong,missing,strong,missing,missing,missing
+730,google.co.uk,usable,https://www.google.com/,28.3,33.3,No CMS/framework detected,,gws,,missing,report-only,strong,missing,missing,reasonable
+731,ring.com,usable,https://ring.com/es/es,54.2,76.9,Shopify,Shopify|Contentful|Angular,Server,Express,strong,weak,strong,strong,missing,missing
+732,cursor.sh,usable,https://cursor.com/,14.2,85.7,Next.js,Next.js,Vercel,,reasonable,weak,missing,missing,missing,missing
+733,wpguardian.com,unreachable,,,,,,,,,,,,,
+734,githubusercontent.com,not_a_website,,,,,,,,,,,,,
+735,cdnhwc1.com,not_a_website,,,,,,,,,,,,,
+736,browser-intake-datadoghq.com,unreachable,,,,,,,,,,,,,
+737,wpguardian.io,unreachable,,,,,,,,,,,,,
+738,uber.com,usable,https://www.uber.com/es/en/,46.7,50.0,No CMS/framework detected,,cloudflare,,reasonable,reasonable,reasonable,strong,missing,missing
+739,mlb.com,usable,https://www.mlb.com/,47.5,83.3,Next.js,Contentful|Next.js|Google Tag Manager,,,weak,missing,strong,strong,reasonable,missing
+740,asus.com,usable,https://www.asus.com/,80.8,84.6,Nuxt.js,Nuxt.js|jQuery|Google Tag Manager,nginx,,strong,weak,strong,strong,strong,reasonable
+741,shopee.co.id,usable,https://shopee.co.id,53.3,33.3,React,React|Google Tag Manager,SGW,,reasonable,reasonable,missing,strong,strong,missing
+742,abovedomains.com,usable,https://www.above.com,16.7,61.5,Other (analytics/CDN only),Bootstrap|Google Tag Manager,Apache,,missing,missing,strong,missing,missing,missing
+743,airbnb.com,usable,https://www.airbnb.com/,41.7,33.3,No CMS/framework detected,,nginx,,weak,weak,strong,strong,missing,missing
+744,python.org,usable,https://www.python.org/,35.0,78.6,Other (analytics/CDN only),jQuery,nginx,,strong,report-only,strong,missing,missing,missing
+745,mediafire.com,usable,https://www.mediafire.com/,30.8,69.2,Other (analytics/CDN only),jQuery|Google Analytics 4|Google Tag Manager|Cloudflare,cloudflare,,weak,reasonable,strong,missing,missing,missing
+746,lijit.com,usable,https://lijit.com,0.0,53.8,No CMS/framework detected,,AmazonS3,,missing,missing,missing,missing,missing,missing
+747,bidr.io,not_a_website,,,,,,,,,,,,,
+748,ted.com,usable,https://www.ted.com/,60.0,76.9,Next.js,Next.js,Varnish,,reasonable,missing,strong,strong,strong,missing
+749,sedo.com,usable,https://sedo.com/us/,37.5,76.9,No CMS/framework detected,,cloudflare,,weak,missing,strong,strong,missing,missing
+750,whecloud.com,not_a_website,,,,,,,,,,,,,
+751,wp.pl,usable,https://www.wp.pl/,53.3,84.6,No CMS/framework detected,,nginx,,missing,reasonable,strong,strong,reasonable,missing
+752,mercadolivre.com.br,usable,https://www.mercadolivre.com.br/,47.5,75.0,No CMS/framework detected,,Tengine,,strong,weak,missing,strong,reasonable,missing
+753,criteo.net,not_a_website,,,,,,,,,,,,,
+754,homedepot.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+755,queniuaa.com,not_a_website,,,,,,,,,,,,,
+756,imrworldwide.com,not_a_website,,,,,,,,,,,,,
+757,allaboutcookies.org,unreachable,,,,,,cloudflare,,,,,,,
+758,eeroup.com,unreachable,,,,,,AmazonS3,,,,,,,
+759,box.com,usable,https://www.box.com/,41.7,75.0,Drupal,Drupal,cloudflare,,weak,weak,strong,strong,missing,missing
+760,curseforge.com,blocked_inspection,https://www.curseforge.com/,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+761,wb.ru,unreachable,,,,,,wbaas,,,,,,,
+762,zillow.com,usable,https://www.zillow.com/,60.0,76.9,Next.js,Next.js|Google Tag Manager,CloudFront,,strong,reasonable,missing,strong,strong,missing
+763,bamgrid.com,not_a_website,,,,,,,,,,,,,
+764,fda.gov,unreachable,,,,,,AkamaiNetStorage,,,,,,,
+765,bild.de,usable,https://www.bild.de/,36.7,84.6,No CMS/framework detected,,Apache,,reasonable,reasonable,missing,strong,missing,missing
+766,bestbuy.com,unreachable,,,,,,,,,,,,,
+767,verisign.com,usable,https://www.verisign.com/,70.8,69.2,Other (analytics/CDN only),TailwindCSS,AmazonS3,,strong,weak,strong,strong,strong,missing
+768,mckinsey.com,unreachable,,,,,,,,,,,,,
+769,bugsnag.com,usable,https://www.bugsnag.com/,0.0,75.0,Other (analytics/CDN only),Google Tag Manager,cloudflare,,missing,missing,missing,missing,missing,missing
+770,appcenter.ms,usable,https://appcenter.ms,70.8,69.2,No CMS/framework detected,,,,strong,weak,strong,strong,strong,missing
+771,steamstatic.com,not_a_website,,,,,,,,,,,,,
+772,safebrowsing.apple,not_a_website,,,,,,,,,,,,,
+773,nikkei.com,usable,https://www.nikkei.com:443/,63.3,84.6,No CMS/framework detected,,,,reasonable,reasonable,missing,strong,strong,reasonable
+774,orderbox-dns.com,not_a_website,,,,,,,,,,,,,
+775,alipaydns.com,unreachable,,,,,,spanner/1.6.1,,,,,,,
+776,share-dns.com,not_a_website,,,,,,,,,,,,,
+777,ddnss.de,unreachable,,,,,,,,,,,,,
+778,gumgum.com,usable,https://gumgum.com,43.3,75.0,Other (analytics/CDN only),Google Tag Manager,cloudflare,,strong,reasonable,strong,missing,missing,missing
+779,google.com.br,usable,https://www.google.com/,38.3,33.3,No CMS/framework detected,,gws,,reasonable,report-only,strong,missing,missing,reasonable
+780,adjust.com,unreachable,,,,,,Vercel,,,,,,,
+781,singular.net,usable,https://www.singular.net/,16.7,50.0,WordPress,WordPress|Google Analytics 4|Hotjar,cloudflare,,missing,missing,strong,missing,missing,missing
+782,networkadvertising.org,unreachable,,,,,,cloudflare,Acorn 5.1.1 (Laravel 12.54.1),,,,,,
+783,lenovo.com,usable,https://www.lenovo.com/es/es/,40.8,58.3,No CMS/framework detected,,AkamaiGHost,,reasonable,weak,strong,missing,reasonable,missing
+784,fiverr.com,usable,https://www.fiverr.com/,16.7,91.7,React,React,cloudflare,,strong,missing,missing,missing,missing,missing
+785,att.net,usable,https://consent.yahoo.com/v2/collectConsent,68.3,46.2,No CMS/framework detected,,ATS,,strong,report-only,strong,strong,strong,missing
+786,visma.com,usable,https://www.visma.com/,10.0,84.6,Other (analytics/CDN only),Google Tag Manager,cloudflare,,reasonable,missing,missing,missing,missing,missing
+787,adform.net,unreachable,,,,,,nginx,,,,,,,
+788,apnews.com,usable,https://apnews.com,26.7,84.6,Vue.js,Vue.js|Google Tag Manager,cloudflare,Brightspot,strong,reasonable,missing,missing,missing,missing
+789,liadm.com,not_a_website,,,,,,,,,,,,,
+790,grammarly.io,not_a_website,,,,,,,,,,,,,
+791,ozone.ru,unreachable,,,,,,,,,,,,,
+792,welt.de,usable,https://www.welt.de:443/,61.7,91.7,No CMS/framework detected,,,,strong,weak,strong,weak,reasonable,reasonable
+793,ubi.com,usable,https://www.ubisoft.com/es-es,10.0,76.9,Next.js,Contentful|Next.js,nginx,Next.js,missing,reasonable,missing,missing,missing,missing
+794,ovscdns.com,not_a_website,,,,,,,,,,,,,
+795,nmrodam.com,not_a_website,,,,,,,,,,,,,
+796,ad-tech.ru,unreachable,,,,,,,,,,,,,
+797,ameblo.jp,usable,https://ameblo.jp,36.7,76.9,Next.js,React|Next.js|Angular|Google Tag Manager,,,missing,reasonable,missing,strong,missing,reasonable
+798,teads.tv,usable,https://cdn.teads.tv:443/redirect.html,0.0,46.2,No CMS/framework detected,,AmazonS3,,missing,missing,missing,missing,missing,missing
+799,academia.edu,blocked_inspection,https://www.academia.edu/,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+800,prnewswire.com,usable,https://www.prnewswire.com/,50.0,84.6,No CMS/framework detected,,cloudflare,,strong,missing,strong,strong,missing,missing
+801,rt.ru,unreachable,,,,,,,,,,,,,
+802,shopeemobile.com,unreachable,,,,,,,,,,,,,
+803,nominetdns.uk,not_a_website,,,,,,,,,,,,,
+804,people.com,unreachable,,,,,,cloudflare,,,,,,,
+805,disneyplus.com,usable,https://www.disneyplus.com/,0.0,83.3,No CMS/framework detected,,,,missing,missing,missing,missing,missing,missing
+806,rakuten.com,usable,https://www.rakuten.com/geogating/sorry,43.3,92.3,Next.js,Next.js,nginx,,reasonable,missing,strong,strong,missing,missing
+807,mixpanel.com,usable,https://mixpanel.com/home/,68.3,83.3,Other (analytics/CDN only),Framer,nginx,,strong,weak,strong,weak,strong,reasonable
+808,a-mo.net,thin_page,https://a-mo.net,0.0,25.0,,,AmazonS3,,missing,missing,missing,missing,missing,missing
+809,bunnyinfra.net,not_a_website,,,,,,,,,,,,,
+810,zpath.net,not_a_website,,,,,,,,,,,,,
+811,zoho.com,usable,https://www.zoho.com/,37.5,92.3,No CMS/framework detected,,ZGS,,strong,weak,missing,strong,missing,missing
+812,daum.net,usable,https://www.daum.net/,10.0,58.3,No CMS/framework detected,,,,reasonable,missing,missing,missing,missing,missing
+813,washington.edu,usable,https://www.washington.edu/,0.0,75.0,WordPress,WordPress|jQuery|Google Tag Manager,Apache,,missing,missing,missing,missing,missing,missing
+814,a-msedge.net,not_a_website,,,,,,,,,,,,,
+815,amazon.com.au,thin_page,https://www.amazon.com.au/,0.0,50.0,,,CloudFront,,missing,missing,missing,missing,missing,missing
+816,xbox.com,usable,https://www.xbox.com/es-ES/,37.5,75.0,Angular,Strapi|Angular|jQuery|Cloudflare,,,weak,missing,strong,strong,missing,missing
+817,moloco.com,usable,https://www.moloco.com/,60.0,84.6,Other (analytics/CDN only),Google Tag Manager,cloudflare,,strong,reasonable,strong,strong,missing,missing
+818,erome.com,usable,https://www.erome.com/,16.7,53.8,Other (analytics/CDN only),Google Analytics 4,BunnyCDN-FR1-1327,,strong,missing,missing,missing,missing,missing
+819,unpkg.com,usable,https://unpkg.com,33.3,66.7,React,React|Bootstrap|Google Analytics 4|Cloudflare,cloudflare,,strong,missing,missing,strong,missing,missing
+820,sc-cdn.net,not_a_website,,,,,,,,,,,,,
+821,livejournal.com,usable,https://www.livejournal.com/,24.2,61.5,No CMS/framework detected,,nginx,,missing,weak,missing,missing,reasonable,reasonable
+822,recaptcha.net,unreachable,,,,,,ESF,,,,,,,
+823,33across.com,blocked_inspection,https://www.33across.com/,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+824,hilton.com,unreachable,,,,,,AkamaiNetStorage,,,,,,,
+825,theverge.com,usable,https://www.theverge.com/,20.0,76.9,WordPress,WordPress|Next.js,,Next.js,reasonable,reasonable,missing,missing,missing,missing
+826,it.com,usable,https://get.it.com,80.8,76.9,Nuxt.js,Vue.js|Nuxt.js|Google Analytics 4,cloudflare,,strong,weak,strong,strong,strong,reasonable
+827,no-ip.com,usable,https://www.noip.com/,43.3,84.6,WordPress,WordPress|Google Tag Manager,nginx,,missing,missing,strong,strong,reasonable,missing
+828,discordapp.com,usable,https://discord.com/,64.2,92.3,Other (analytics/CDN only),Google Tag Manager,cloudflare,,strong,weak,strong,strong,missing,reasonable
+829,turn.com,not_a_website,,,,,,,,,,,,,
+830,blackberry.com,usable,https://www.blackberry.com/en,43.3,84.6,Next.js,Next.js|Google Tag Manager,Netlify,Next.js,strong,reasonable,missing,strong,missing,missing
+831,lefigaro.fr,usable,https://www.lefigaro.fr/,43.3,50.0,Other (analytics/CDN only),Google Tag Manager,,,strong,reasonable,strong,missing,missing,missing
+832,liftoff.io,unreachable,,,,,,cloudflare,WP Engine,,,,,,
+833,hbr.org,usable,https://hbr.org,54.2,61.5,Next.js,Next.js,,,weak,missing,strong,strong,strong,missing
+834,focus.de,usable,https://www.focus.de/,10.0,100.0,No CMS/framework detected,,,,missing,missing,missing,missing,missing,reasonable
+835,me.com,usable,https://www.icloud.com/,54.2,66.7,No CMS/framework detected,,AppleHttpServer/cff317772116,,strong,weak,strong,strong,missing,missing
+836,msftauth.net,not_a_website,,,,,,,,,,,,,
+837,webhostbox.net,not_a_website,,,,,,,,,,,,,
+838,nbcnews.com,usable,https://www.nbcnews.com,30.8,76.9,Next.js,Next.js|Netlify,nginx,Next.js,weak,reasonable,strong,missing,missing,missing
+839,porkbun.com,usable,https://porkbun.com,60.0,85.7,Other (analytics/CDN only),Bootstrap,openresty,,strong,missing,strong,strong,reasonable,missing
+840,amazon.com.br,thin_page,https://www.amazon.com.br/,0.0,50.0,,,CloudFront,,missing,missing,missing,missing,missing,missing
+841,zoom.com,usable,https://www.zoom.com,10.0,84.6,Other (analytics/CDN only),Google Tag Manager,cloudflare,,reasonable,missing,missing,missing,missing,missing
+842,cloudsink.net,not_a_website,,,,,,,,,,,,,
+843,deepl.com,usable,https://www.deepl.com/en,60.0,92.3,Next.js,Contentful|Next.js,cloudflare,,strong,reasonable,missing,strong,strong,missing
+844,vivo.com.cn,usable,https://www.vivo.com/eu,0.0,61.5,Nuxt.js,Vue.js|Nuxt.js,,,missing,missing,missing,missing,missing,missing
+845,myspace.com,usable,https://myspace.com,36.7,38.5,No CMS/framework detected,,,,reasonable,reasonable,strong,missing,missing,missing
+846,usda.gov,unreachable,,,,,,AkamaiGHost,,,,,,,
+847,dbankcloud.ru,not_a_website,,,,,,,,,,,,,
+848,discogs.com,blocked_inspection,https://www.discogs.com:443/,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+849,t-s1-msedge.net,not_a_website,,,,,,,,,,,,,
+850,onlyfans.com,blocked_inspection,https://onlyfans.com,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+851,lgtvcommon.com,not_a_website,,,,,,,,,,,,,
+852,agoda.com,usable,https://www.agoda.com/,43.3,41.7,No CMS/framework detected,,,,reasonable,missing,strong,strong,missing,missing
+853,onetag-sys.com,thin_page,https://onetag-sys.com,10.0,53.8,,,,,reasonable,missing,missing,missing,missing,missing
+854,mayoclinic.org,unreachable,,,,,,AkamaiGHost,,,,,,,
+855,ebay.co.uk,unreachable,,,,,,AkamaiGHost,,,,,,,
+856,appspot.com,usable,https://accounts.google.com/v3/signin/identifier,64.2,33.3,No CMS/framework detected,,ESF,,strong,weak,strong,strong,missing,reasonable
+857,goskope.com,not_a_website,,,,,,,,,,,,,
+858,alrosa.ru,usable,https://alrosa.ru,33.3,61.5,No CMS/framework detected,,,,missing,missing,strong,strong,missing,missing
+859,frontiersin.org,usable,https://www.frontiersin.org/,0.0,84.6,Nuxt.js,Contentful|Nuxt.js,,Express,missing,missing,missing,missing,missing,missing
+860,disqus.com,usable,https://disqus.com,20.8,75.0,No CMS/framework detected,,nginx,,weak,missing,missing,strong,missing,missing
+861,pexels.com,blocked_inspection,https://www.pexels.com/,0.0,41.7,,Google Analytics 4|Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+862,lwsdns.com,usable,https://lwsdns.com,0.0,46.2,No CMS/framework detected,,,,missing,missing,missing,missing,missing,missing
+863,usgovcloudapi.net,not_a_website,,,,,,,,,,,,,
+864,princeton.edu,usable,https://www.Princeton.EDU/,33.3,92.3,Drupal,Drupal,cloudflare,,missing,missing,strong,strong,missing,missing
+865,xvideos.com,usable,https://www.xvideos.com/,30.8,46.2,No CMS/framework detected,,nginx,,missing,weak,strong,missing,reasonable,missing
+866,keenetic.io,not_a_website,,,,,,,,,,,,,
+867,arcgis.com,thin_page,https://www.arcgis.com/index.html,30.0,50.0,,,ArcGIS Online,,reasonable,reasonable,missing,missing,reasonable,missing
+868,ebay.de,unreachable,,,,,,AkamaiGHost,,,,,,,
+869,herokudns.com,not_a_website,,,,,,,,,,,,,
+870,yellowblue.io,not_a_website,,,,,,,,,,,,,
+871,figma.com,usable,https://www.figma.com/,41.7,84.6,Next.js,Sanity|Next.js|Google Analytics 4,,,strong,weak,strong,weak,missing,missing
+872,360safe.com,unreachable,,,,,,,,,,,,,
+873,adgrx.com,not_a_website,,,,,,,,,,,,,
+874,chess.com,usable,https://www.chess.com/,60.0,92.3,Other (analytics/CDN only),Cloudflare,cloudflare,,strong,reasonable,strong,strong,missing,missing
+875,ssl-images-amazon.com,not_a_website,,,,,,,,,,,,,
+876,lg.com,usable,https://www.lg.com/es/,0.0,92.3,Next.js,Next.js|Google Analytics 4,AkamaiGHost,,missing,missing,missing,missing,missing,missing
+877,fbsbx.com,unreachable,,,,,,,,,,,,,
+878,azure-devices.net,not_a_website,,,,,,,,,,,,,
+879,synology.com,unreachable,,,,,,APISIX,,,,,,,
+880,herokuapp.com,unreachable,,,,,,,,,,,,,
+881,pikabu.ru,usable,https://pikabu.ru,36.7,61.5,No CMS/framework detected,,ddos-guard,,reasonable,reasonable,strong,missing,missing,missing
+882,pornhub.com,usable,https://www.pornhub.com/,33.3,50.0,Other (analytics/CDN only),Google Analytics 4,openresty,,strong,missing,strong,missing,missing,missing
+883,spiegel.de,usable,https://www.spiegel.de/,20.0,84.6,Other (analytics/CDN only),Alpine.js,,,reasonable,reasonable,missing,missing,missing,missing
+884,biblegateway.com,usable,https://www.biblegateway.com/,4.2,66.7,No CMS/framework detected,,nginx,,weak,missing,missing,missing,missing,missing
+885,www.gov.br,usable,https://www.gov.br/pt-br,76.7,92.3,Other (analytics/CDN only),Google Analytics 4|Google Tag Manager|Cloudflare,"Zope/(2.13.28, python 2.7.16, linux2) ZServer/1.1",,strong,reasonable,strong,strong,strong,missing
+886,spotifycdn.com,not_a_website,,,,,,,,,,,,,
+887,jetbrains.com,usable,https://www.jetbrains.com/,47.5,83.3,Other (analytics/CDN only),Google Tag Manager,nginx,,reasonable,missing,strong,weak,strong,missing
+888,worldbank.org,usable,https://www.worldbank.org/ext/en/home,50.0,76.9,Other (analytics/CDN only),Cloudflare,cloudflare,,strong,missing,strong,strong,missing,missing
+889,bankofamerica.com,usable,https://www.bankofamerica.com/,37.5,92.3,Angular,Angular,,,strong,weak,strong,missing,missing,missing
+890,mybluehost.me,unreachable,,,,,,,,,,,,,
+891,qualtrics.com,usable,https://www.qualtrics.com/,60.0,92.3,WordPress,WordPress|Drupal|Google Tag Manager,nginx,,strong,missing,strong,strong,reasonable,missing
+892,latimes.com,usable,https://www.latimes.com:443/,46.7,50.0,Other (analytics/CDN only),TailwindCSS,N/A,Brightspot,reasonable,reasonable,strong,missing,missing,reasonable
+893,fwmrm.net,unreachable,,,,,,cloudflare,WP Engine,,,,,,
+894,scdn.co,not_a_website,,,,,,,,,,,,,
+895,wyzecam.com,usable,https://www.wyze.com/,47.5,75.0,Shopify,Shopify|Google Tag Manager,cloudflare,,weak,reasonable,strong,strong,missing,missing
+896,readthedocs.io,usable,https://about.readthedocs.com/,26.7,69.2,No CMS/framework detected,,cloudflare,,missing,missing,missing,strong,reasonable,missing
+897,kleinanzeigen.de,usable,https://www.kleinanzeigen.de/,50.0,69.2,Astro,Astro|Hotjar,,,strong,missing,strong,strong,missing,missing
+898,eu-1-id5-sync.com,unreachable,,,,,,,,,,,,,
+899,dv.tech,unreachable,,,,,,,,,,,,,
+900,ys7.com,usable,https://www.ys7.com/,0.0,46.2,No CMS/framework detected,,,,missing,missing,missing,missing,missing,missing
+901,tiktokw.us,usable,https://www.tiktokw.us,66.7,50.0,No CMS/framework detected,,nginx,Goofy Node,strong,missing,strong,strong,strong,missing
+902,go-mpulse.net,not_a_website,,,,,,,,,,,,,
+903,life360.com,blocked_inspection,https://www.life360.com:443/,0.0,50.0,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+904,coupang.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+905,starlink.com,usable,https://starlink.com,30.8,61.5,React,React|Google Tag Manager,whydoyoucare?,,reasonable,weak,missing,strong,missing,missing
+906,youku.com,usable,https://www.youku.com/ku/webhome,43.3,46.2,No CMS/framework detected,,Tengine/Aserver,,reasonable,missing,strong,strong,missing,missing
+907,samsungosp.com,usable,https://www.samsungosp.com,0.0,53.8,No CMS/framework detected,,nginx/1.28.1,,missing,missing,missing,missing,missing,missing
+908,miwifi.com,unreachable,,,,,,Tengine,,,,,,,
+909,sentinelone.net,unreachable,,,,,,,,,,,,,
+910,samsungiotcloud.com,not_a_website,,,,,,,,,,,,,
+911,paramountplus.com,usable,https://www.paramountplus.com/intl/,16.7,75.0,No CMS/framework detected,,openresty,,missing,missing,strong,missing,missing,missing
+912,seedtag.com,usable,https://www.seedtag.com/,10.0,69.2,Other (analytics/CDN only),Google Tag Manager,cloudflare,,reasonable,missing,missing,missing,missing,missing
+913,flashtalking.com,usable,https://www.innovid.com/,36.7,76.9,Other (analytics/CDN only),Google Tag Manager,cloudflare,,reasonable,reasonable,strong,missing,missing,missing
+914,deloitte.com,usable,https://www.deloitte.com/es/es.html,64.2,69.2,No CMS/framework detected,,,,weak,reasonable,strong,strong,strong,missing
+915,thenai.org,usable,https://thenai.org,0.0,84.6,WordPress,WordPress|Alpine.js|jQuery|Google Analytics 4,cloudflare,Acorn 5.1.1 (Laravel 12.54.1),missing,missing,missing,missing,missing,missing
+916,epa.gov,usable,https://www.epa.gov/,45.0,92.3,Drupal,Drupal|jQuery|Google Tag Manager,nginx,,reasonable,weak,weak,strong,reasonable,missing
+917,wcdnga.com,not_a_website,,,,,,,,,,,,,
+918,nintendo.net,not_a_website,,,,,,,,,,,,,
+919,state.gov,usable,https://www.state.gov/,54.2,76.9,WordPress,WordPress,Apache,,strong,weak,strong,strong,missing,missing
+920,ln-msedge.net,not_a_website,,,,,,,,,,,,,
+921,agora.io,usable,https://www.agora.io/en/,74.2,69.2,Other (analytics/CDN only),Google Analytics 4|Google Tag Manager,nginx/1.14.0 (Ubuntu),,strong,reasonable,weak,strong,strong,reasonable
+922,genius.com,usable,https://genius.com,26.7,41.7,No CMS/framework detected,,cloudflare,,missing,reasonable,strong,missing,missing,missing
+923,akamaitech.net,not_a_website,,,,,,,,,,,,,
+924,smartthings.com,usable,https://www.samsung.com/us/smartthings/,26.7,84.6,Angular,Angular,,,reasonable,missing,strong,missing,missing,missing
+925,epam.com,blocked_inspection,https://epam.com,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+926,investopedia.com,unreachable,,,,,,cloudflare,,,,,,,
+927,pendo.io,usable,https://www.pendo.io:443/,20.0,92.3,Next.js,Next.js|Google Analytics 4,Vercel,Next.js,reasonable,reasonable,missing,missing,missing,missing
+928,cdn-vk.ru,not_a_website,,,,,,,,,,,,,
+929,eporner.com,usable,https://www.eporner.com/,46.7,92.3,No CMS/framework detected,,nginx,,reasonable,reasonable,strong,missing,missing,reasonable
+930,b-msedge.net,not_a_website,,,,,,,,,,,,,
+931,mailchi.mp,usable,https://mailchimp.com/es/,26.7,83.3,Other (analytics/CDN only),Google Analytics 4,istio-envoy,,reasonable,missing,strong,missing,missing,missing
+932,docker.io,usable,https://www.docker.com/,70.0,83.3,No CMS/framework detected,,nginx,,reasonable,missing,strong,strong,strong,reasonable
+933,playrix.com,usable,https://playrix.com,0.0,58.3,Other (analytics/CDN only),Google Tag Manager,cloudflare,,missing,missing,missing,missing,missing,missing
+934,internetwarriors.net,usable,https://tracker.cl,0.0,53.8,Other (analytics/CDN only),Bootstrap|Cloudflare,nginx,,missing,missing,missing,missing,missing,missing
+935,rocketmoney.dev,usable,https://www.rocketmoney.dev/,66.7,66.7,Other (analytics/CDN only),Framer|Google Tag Manager,nginx,,strong,missing,strong,strong,strong,missing
+936,aiv-delivery.net,not_a_website,,,,,,,,,,,,,
+937,kunluncan.com,unreachable,,,,,,,,,,,,,
+938,mercadolibre.com.ar,usable,https://www.mercadolibre.com.ar/,47.5,75.0,Other (analytics/CDN only),Google Analytics 4,Tengine,,strong,weak,missing,strong,reasonable,missing
+939,warnerbros.com,usable,https://www.warnerbros.com/,0.0,91.7,Other (analytics/CDN only),Google Tag Manager,AmazonS3,,missing,missing,missing,missing,missing,missing
+940,change.org,usable,https://www.change.org/,40.8,91.7,Other (analytics/CDN only),Google Tag Manager,nginx/1.31.3,,reasonable,weak,strong,missing,missing,reasonable
+941,webmd.com,usable,https://www.webmd.com/,10.0,66.7,Other (analytics/CDN only),Google Analytics 4,cloudflare,,missing,reasonable,missing,missing,missing,missing
+942,odoo.com,usable,https://www.odoo.com/,30.8,92.3,No CMS/framework detected,,nginx,,reasonable,missing,missing,weak,strong,missing
+943,ubnt.com,usable,https://www.ui.com/,66.7,58.3,Angular,Angular|Google Analytics 4|Hotjar,AmazonS3,,strong,missing,strong,strong,strong,missing
+944,character.ai,blocked_inspection,https://character.ai,0.0,50.0,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+945,chaturbate.com,usable,https://chaturbate.com,70.8,33.3,No CMS/framework detected,,cloudflare,,strong,weak,strong,strong,strong,missing
+946,lowes.com,blocked_inspection,https://www.lowes.com/,20.0,41.7,,,,,reasonable,reasonable,missing,missing,missing,missing
+947,netlify.app,usable,https://www.netlify.com/,26.7,100.0,Astro,Astro|Google Tag Manager|Netlify,Netlify,,strong,missing,missing,missing,missing,reasonable
+948,fidelity.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+949,hm.com,unreachable,,,,,,AkamaiGHost,,,,,,,
+950,repubblica.it,usable,https://www.repubblica.it/,8.3,78.6,No CMS/framework detected,,,,missing,weak,missing,missing,weak,missing
+951,one.com,usable,https://www.one.com/en-gb/,10.0,41.7,Next.js,Next.js,Apache,,reasonable,missing,missing,missing,missing,missing
+952,leiniao.com,unreachable,,,,,,,,,,,,,
+953,nationalgeographic.com,usable,https://www.nationalgeographic.com/,0.0,84.6,No CMS/framework detected,,nginx,,missing,missing,missing,missing,missing,missing
+954,onet.pl,usable,https://www.onet.pl/,18.3,69.2,Next.js,Next.js|Angular|Google Analytics 4,Ring Publishing - Accelerator,Next.js,missing,report-only,missing,strong,missing,missing
+955,xnxx.com,usable,https://www.xnxx.com/,30.8,46.2,No CMS/framework detected,,nginx,,missing,weak,strong,missing,reasonable,missing
+956,note.com,usable,https://note.com,30.8,83.3,Next.js,Next.js|Google Analytics 4,,,reasonable,weak,missing,strong,missing,missing
+957,healthline.com,usable,https://www.healthline.com/,18.3,84.6,WordPress,WordPress|Next.js,,,strong,report-only,missing,missing,missing,missing
+958,otto.de,usable,https://www.otto.de/,36.7,61.5,No CMS/framework detected,,Edge Proxy,,reasonable,reasonable,missing,strong,missing,missing
+959,jd.com,usable,https://global.jd.com,4.2,33.3,React,React,nginx,,weak,missing,missing,missing,missing,missing
+960,weforum.org,unreachable,,,,,,,,,,,,,
+961,tailscale.com,usable,https://tailscale.com,36.7,92.3,Next.js,Sanity|Next.js|Vercel,Vercel,,reasonable,reasonable,missing,strong,missing,missing
+962,ancestry.com,unreachable,,,,,,cloudflare,,,,,,,
+963,pccc.com,usable,https://pccc.com,10.0,100.0,WordPress,WordPress|jQuery|Google Analytics 4,Apache,,missing,missing,missing,missing,reasonable,missing
+964,corriere.it,usable,https://www.corriere.it/,20.0,69.2,No CMS/framework detected,,,,missing,missing,missing,missing,reasonable,reasonable
+965,volcgslb.com,not_a_website,,,,,,,,,,,,,
+966,tsyndicate.com,thin_page,https://tsyndicate.com,10.0,25.0,,,nginx,,missing,missing,missing,missing,missing,reasonable
+967,segment.io,usable,https://www.twilio.com/en-us/segment,0.0,75.0,Other (analytics/CDN only),Google Tag Manager|Segment,AmazonS3,,missing,missing,missing,missing,missing,missing
+968,nexusmods.com,blocked_inspection,https://www.nexusmods.com/,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+969,dnse0.com,not_a_website,,,,,,,,,,,,,
+970,tplinknbu.com,not_a_website,,,,,,,,,,,,,
+971,xhamster46.desi,usable,https://xhamster46.desi,40.8,66.7,No CMS/framework detected,,cloudflare,,weak,reasonable,strong,missing,missing,reasonable
+972,yieldmo.com,usable,https://yieldmo.com,0.0,83.3,WordPress,WordPress,nginx,,missing,missing,missing,missing,missing,missing
+973,usercontent.goog,unreachable,,,,,,,,,,,,,
+974,presage.io,unreachable,,,,,,,,,,,,,
+975,caixa.gov.br,usable,https://www.caixa.gov.br/Paginas/home-caixa.aspx,47.5,58.3,Other (analytics/CDN only),jQuery|Google Tag Manager,,,weak,reasonable,strong,strong,missing,missing
+976,btloader.com,unreachable,,,,,,cloudflare,,,,,,,
+977,4dex.io,not_a_website,,,,,,,,,,,,,
+978,statsigapi.net,unreachable,,,,,,,,,,,,,
+979,dyingbirds.com,not_a_website,,,,,,,,,,,,,
+980,opera-api.com,unreachable,,,,,,,,,,,,,
+981,kwai.com,usable,https://www.kwai.com/,1.7,53.8,Nuxt.js,Vue.js|Nuxt.js,,,missing,report-only,missing,missing,missing,missing
+982,eu.com,usable,https://eu.com,0.0,76.9,Other (analytics/CDN only),Google Tag Manager,nginx,,missing,missing,missing,missing,missing,missing
+983,umich.edu,blocked_inspection,https://umich.edu,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+984,stbid.ru,unreachable,,,,,,Angie/1.11.2,,,,,,,
+985,transsion-os.com,not_a_website,,,,,,,,,,,,,
+986,elmundo.es,usable,https://www.elmundo.es/,4.2,84.6,No CMS/framework detected,,,,missing,missing,missing,missing,weak,missing
+987,zenecn.net,not_a_website,,,,,,,,,,,,,
+988,pixiv.net,blocked_inspection,https://www.pixiv.net/en/,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+989,sofascore.com,unreachable,,,,,,Varnish,,,,,,,
+990,faphouse.com,usable,https://faphouse.com,47.5,69.2,No CMS/framework detected,,cloudflare,,strong,weak,strong,missing,missing,reasonable
+991,ddns.net,unreachable,,,,,,,,,,,,,
+992,themeforest.net,usable,https://themeforest.net,60.0,92.3,Other (analytics/CDN only),WooCommerce|PrestaShop,cloudflare,,reasonable,missing,strong,strong,strong,missing
+993,bytefcdn.com,not_a_website,,,,,,,,,,,,,
+994,theatlantic.com,usable,https://www.theatlantic.com/world/,33.3,69.2,Next.js,Next.js,cloudflare,,strong,missing,missing,strong,missing,missing
+995,freepik.com,unreachable,,,,,,,,,,,,,
+996,xhcdn.com,unreachable,,,,,,nginx/1.20.1,,,,,,,
+997,ox.ac.uk,blocked_inspection,https://www.ox.ac.uk/,0.0,41.7,,Cloudflare,cloudflare,,missing,missing,missing,missing,missing,missing
+998,nextlgsdp.com,not_a_website,,,,,,,,,,,,,
+999,whitehouse.gov,usable,https://www.whitehouse.gov/,76.7,83.3,WordPress,WordPress|Alpine.js,nginx,,strong,reasonable,strong,strong,strong,missing
+1000,expedia.com,unreachable,,,,,,istio-envoy,,,,,,,

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Security headers of the top 1,000 websites</title>
+<meta name="description" content="A snapshot of how the Tranco top 1,000 websites configure their HTTP security headers. Median score 37/100; 82% have no working Content-Security-Policy.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="eyebrow">Data study &middot; August 2026</div>
+  <h1>Security headers of the top 1,000 websites</h1>
+  <p class="lede">Every homepage in the Tranco top&nbsp;1,000 was fetched once and graded on six
+  HTTP security headers. The median score is <strong>37 out of 100</strong>, and about
+  <strong>82%</strong> have no Content-Security-Policy that would actually stop an XSS.</p>
+  <div class="meta">489 real, reachable homepages analyzed &middot; grading by the open-source Web Metadata &amp; Contact Extractor API</div>
+  <div class="links">
+    <a id="repo" href="#">GitHub repo &amp; scripts</a>
+    <a id="csv" href="#">Download dataset (CSV)</a>
+    <a id="api" href="#">Grade your own site</a>
+    <button class="theme-btn" id="theme">Theme</button>
+  </div>
+</header>
+
+<section class="tiles" id="tiles"></section>
+
+<section class="block">
+  <h2>Most of the top sites are missing most of the headers</h2>
+  <p class="sub">Share of the 489 sites that send each header. Only HSTS is on a majority.</p>
+  <div class="chart-card"><svg class="chart" id="c-adoption" viewBox="0 0 700 300"></svg></div>
+</section>
+
+<section class="block">
+  <h2>The score distribution is bottom-heavy</h2>
+  <p class="sub">Score = mean of the six header grades (missing 0, weak .25, reasonable .6, strong 1), as a percent.</p>
+  <div class="chart-card"><svg class="chart" id="c-dist" viewBox="0 0 700 300"></svg></div>
+</section>
+
+<section class="block">
+  <h2>The tech stack predicts the posture</h2>
+  <p class="sub">Median security-header score by detected platform (groups with n&nbsp;&ge;&nbsp;15). WordPress trails the field by ~10 points.</p>
+  <div class="chart-card"><svg class="chart" id="c-plat" viewBox="0 0 700 260"></svg></div>
+</section>
+
+<section class="block">
+  <h2>SEO effort and security effort barely correlate</h2>
+  <p class="sub">One dot per site. Pearson r = 0.17. The web has largely solved SEO (median 75) and skipped security headers (median 37).</p>
+  <div class="chart-card"><svg class="chart" id="c-scatter" viewBox="0 0 700 380"></svg></div>
+</section>
+
+<section class="block explorer">
+  <h2>Explore every domain</h2>
+  <p class="sub">All 1,000 Tranco domains, with the reason each one is in or out of the sample. Click a header to sort.</p>
+  <div class="controls">
+    <div class="chips" id="chips"></div>
+    <input class="search" id="search" type="search" placeholder="Filter by domain...">
+  </div>
+  <div class="tbl-scroll">
+    <table>
+      <thead><tr>
+        <th class="num" data-k="r">#</th>
+        <th data-k="d">Domain</th>
+        <th data-k="c">Status</th>
+        <th class="num" data-k="sec">Sec</th>
+        <th class="num" data-k="seo">SEO</th>
+        <th data-k="p">Platform</th>
+        <th data-k="srv">Server</th>
+        <th>Headers <span style="font-weight:400;color:var(--muted)">(HSTS, CSP, frame, nosniff, referrer, permissions)</span></th>
+      </tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+  <div class="legend">
+    <span><i class="d d3"></i> strong</span>
+    <span><i class="d d2"></i> reasonable</span>
+    <span><i class="d d1"></i> weak / report-only</span>
+    <span><i class="d d0"></i> missing</span>
+    <span class="count" id="count"></span>
+  </div>
+</section>
+
+<section class="block method">
+  <h2>Method &amp; limitations</h2>
+  <p>One <code>GET https://&lt;domain&gt;</code> per site in August 2026, redirects followed, from a
+  single European vantage point. Headers graded by the open-source Web Metadata &amp; Contact
+  Extractor API: a CSP containing <code>unsafe-inline</code>, <code>unsafe-eval</code> or a
+  wildcard source is graded <b>weak</b>, not strong.</p>
+  <p>Of the 1,000 Tranco domains: 225 are infrastructure (DNS-only CDN / cloud endpoints that
+  serve no site), 209 were unreachable (timeout, geo-block, paywall, apex quirk), 43 returned a
+  bot-challenge or WAF page, and 34 served a placeholder. The 489 that remain are what every
+  figure here is based on. The excluded sites lean toward the heavily bot-protected, so the real
+  picture is if anything slightly worse than shown.</p>
+  <p>Code, raw responses and this page are MIT-licensed in the repo. The domain list is from
+  <a href="https://tranco-list.eu/">Tranco</a> and carries its own terms.</p>
+</section>
+
+<footer>
+  Built with the <a id="api2" href="#">Web Metadata &amp; Contact Extractor API</a>.
+  Reproduce it: <code>python scan.py 1000 &amp;&amp; python analyze.py &amp;&amp; python make_charts.py</code>.
+</footer>
+
+</div>
+<div class="tip" id="tip"></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

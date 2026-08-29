@@ -1,0 +1,346 @@
+{
+  "coverage": {
+    "not_a_website": 225,
+    "blocked_inspection": 43,
+    "usable": 489,
+    "unreachable": 209,
+    "thin_page": 34,
+    "scanned": 1000
+  },
+  "header_adoption": {
+    "strict_transport_security": {
+      "pct_present": 70.8,
+      "pct_missing": 29.2,
+      "grades": {
+        "missing": 143,
+        "weak": 37,
+        "strong": 165,
+        "reasonable": 144
+      }
+    },
+    "content_security_policy": {
+      "pct_present": 54.4,
+      "pct_missing": 45.6,
+      "grades": {
+        "missing": 223,
+        "weak": 149,
+        "reasonable": 87,
+        "report-only": 27,
+        "strong": 3
+      }
+    },
+    "x_frame_options": {
+      "pct_present": 56.9,
+      "pct_missing": 43.1,
+      "grades": {
+        "missing": 211,
+        "strong": 270,
+        "weak": 7,
+        "reasonable": 1
+      }
+    },
+    "x_content_type_options": {
+      "pct_present": 55.0,
+      "pct_missing": 45.0,
+      "grades": {
+        "missing": 220,
+        "strong": 256,
+        "weak": 13
+      }
+    },
+    "referrer_policy": {
+      "pct_present": 29.4,
+      "pct_missing": 70.6,
+      "grades": {
+        "missing": 345,
+        "strong": 79,
+        "reasonable": 61,
+        "weak": 4
+      }
+    },
+    "permissions_policy": {
+      "pct_present": 16.0,
+      "pct_missing": 84.0,
+      "grades": {
+        "missing": 411,
+        "reasonable": 78
+      }
+    }
+  },
+  "n_headers_present_dist": {
+    "0": 62,
+    "1": 57,
+    "2": 89,
+    "3": 97,
+    "4": 90,
+    "5": 69,
+    "6": 25
+  },
+  "pct_zero_headers": 12.7,
+  "security_score": {
+    "n": 489,
+    "mean": 35.8,
+    "median": 36.7,
+    "p25": 16.7,
+    "p75": 54.2,
+    "pct_zero": 12.7,
+    "pct_ge_70": 9.4
+  },
+  "seo_score": {
+    "n": 489,
+    "mean": 69.7,
+    "median": 75.0,
+    "p25": 57.1,
+    "p75": 84.6,
+    "pct_zero": 0.0,
+    "pct_ge_70": 55.0
+  },
+  "seo_vs_security_pearson": 0.167,
+  "by_platform": {
+    "No CMS/framework detected": {
+      "n": 199,
+      "median_security": 38.3,
+      "median_seo": 61.5,
+      "pct_no_csp": 38.7,
+      "pct_has_hsts": 71.4
+    },
+    "Other (analytics/CDN only)": {
+      "n": 108,
+      "median_security": 30.8,
+      "median_seo": 75.0,
+      "pct_no_csp": 51.9,
+      "pct_has_hsts": 63.0
+    },
+    "Next.js": {
+      "n": 69,
+      "median_security": 37.5,
+      "median_seo": 84.6,
+      "pct_no_csp": 46.4,
+      "pct_has_hsts": 78.3
+    },
+    "WordPress": {
+      "n": 44,
+      "median_security": 26.7,
+      "median_seo": 83.3,
+      "pct_no_csp": 61.4,
+      "pct_has_hsts": 61.4
+    },
+    "Angular": {
+      "n": 15,
+      "median_security": 37.5,
+      "median_seo": 76.9,
+      "pct_no_csp": 60.0,
+      "pct_has_hsts": 86.7
+    },
+    "Nuxt.js": {
+      "n": 12,
+      "median_security": 18.4,
+      "median_seo": 73.1,
+      "pct_no_csp": 33.3,
+      "pct_has_hsts": 50.0
+    },
+    "Drupal": {
+      "n": 10,
+      "median_security": 42.5,
+      "median_seo": 83.9,
+      "pct_no_csp": 50.0,
+      "pct_has_hsts": 70.0
+    },
+    "React": {
+      "n": 10,
+      "median_security": 28.8,
+      "median_seo": 64.1,
+      "pct_no_csp": 50.0,
+      "pct_has_hsts": 90.0
+    },
+    "Astro": {
+      "n": 8,
+      "median_security": 59.1,
+      "median_seo": 92.3,
+      "pct_no_csp": 25.0,
+      "pct_has_hsts": 100.0
+    }
+  },
+  "top_technologies": [
+    [
+      "Google Tag Manager",
+      111
+    ],
+    [
+      "Next.js",
+      71
+    ],
+    [
+      "Google Analytics 4",
+      52
+    ],
+    [
+      "WordPress",
+      44
+    ],
+    [
+      "jQuery",
+      38
+    ],
+    [
+      "Cloudflare",
+      37
+    ],
+    [
+      "Angular",
+      24
+    ],
+    [
+      "Bootstrap",
+      17
+    ],
+    [
+      "Vue.js",
+      15
+    ],
+    [
+      "React",
+      14
+    ],
+    [
+      "Nuxt.js",
+      12
+    ],
+    [
+      "Drupal",
+      11
+    ],
+    [
+      "Alpine.js",
+      10
+    ],
+    [
+      "Contentful",
+      10
+    ],
+    [
+      "TailwindCSS",
+      10
+    ],
+    [
+      "Astro",
+      9
+    ],
+    [
+      "Sanity",
+      8
+    ],
+    [
+      "WooCommerce",
+      7
+    ],
+    [
+      "Hotjar",
+      5
+    ],
+    [
+      "Strapi",
+      5
+    ]
+  ],
+  "server_header": {
+    "n_with_header": 380,
+    "n_usable": 489,
+    "pct_leaking_version": 7.1,
+    "top": [
+      [
+        "cloudflare",
+        90
+      ],
+      [
+        "nginx",
+        87
+      ],
+      [
+        "Apache",
+        25
+      ],
+      [
+        "AmazonS3",
+        17
+      ],
+      [
+        "Tengine",
+        14
+      ],
+      [
+        "envoy",
+        9
+      ],
+      [
+        "sffe",
+        8
+      ],
+      [
+        "gws",
+        7
+      ],
+      [
+        "Vercel",
+        7
+      ],
+      [
+        "Netlify",
+        6
+      ],
+      [
+        "openresty",
+        6
+      ],
+      [
+        "QRATOR",
+        6
+      ]
+    ]
+  },
+  "x_powered_by": {
+    "pct_present": 11.9,
+    "top": [
+      [
+        "Next.js",
+        24
+      ],
+      [
+        "Express",
+        5
+      ],
+      [
+        "KPHP/7.4.127396",
+        4
+      ],
+      [
+        "Nuxt",
+        4
+      ],
+      [
+        "WP Engine",
+        4
+      ],
+      [
+        "Goofy Node",
+        3
+      ],
+      [
+        "Brightspot",
+        2
+      ],
+      [
+        "ASP.NET",
+        2
+      ],
+      [
+        "Phusion Passenger(R) 6.2.0",
+        1
+      ],
+      [
+        "PHP/7.4.33",
+        1
+      ]
+    ]
+  }
+}
