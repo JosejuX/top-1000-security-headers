@@ -1,8 +1,7 @@
 ---
 title: "I scanned the top 1,000 websites for security headers. The median score is 37/100."
-published: false
+published: true
 tags: security, webdev, http, data
-canonical_url:
 ---
 
 Security-header advice has been the same for a decade: set HSTS, set a CSP, add
@@ -13,8 +12,9 @@ graded six response headers.
 
 Short version: **the median security-header score is 37 out of 100. Fewer than 1
 in 10 of the top sites score 70 or higher, and 13% send no security headers at
-all.** The full dataset and scripts are [on GitHub](https://github.com/JosejuX/top-1000-security-headers); this post is the
-walk-through.
+all.** The full dataset and scripts are [on GitHub](https://github.com/JosejuX/top-1000-security-headers),
+there is an [interactive version](https://josejux.github.io/top-1000-security-headers/)
+with a searchable table of every domain, and this post is the walk-through.
 
 ## How the scan works
 
