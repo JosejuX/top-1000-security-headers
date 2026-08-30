@@ -1,5 +1,7 @@
 # Security headers of the top 1,000 websites
 
+![Median security-header score 37/100; ~82% have no working CSP](docs/social-card.png)
+
 A snapshot of how the world's most visited sites configure their HTTP security
 headers, taken in August 2026. Every homepage in the [Tranco](https://tranco-list.eu/)
 top 1,000 was fetched once and graded on six response headers plus a detected
@@ -119,6 +121,7 @@ curl -sL -o tranco.zip https://tranco-list.eu/top-1m.csv.zip
 python scan.py 1000      # -> results.jsonl   (~3 min)
 python analyze.py        # -> summary.json + data/top1000-web-report.csv
 python make_charts.py    # -> charts/*.png
+python make_card.py      # -> docs/social-card.png
 python build_site.py     # -> docs/data.js  (rebuilds the interactive page)
 ```
 
@@ -134,7 +137,7 @@ SEO score and the detected tech stack for a URL.
 |---|---|
 | [`data/top1000-web-report.csv`](data/top1000-web-report.csv) | one row per domain: scores, grades, platform, server |
 | [`data/results.jsonl.gz`](data/results.jsonl.gz) | raw API responses, one JSON object per line |
-| `scan.py` / `analyze.py` / `make_charts.py` / `build_site.py` | the pipeline |
+| `scan.py` / `analyze.py` / `make_charts.py` / `make_card.py` / `build_site.py` | the pipeline |
 | `docs/` | the interactive page (static HTML/CSS/JS, deploys as-is) |
 | `summary.json` | every aggregate used above |
 
