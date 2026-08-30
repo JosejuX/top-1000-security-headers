@@ -15,7 +15,7 @@
 <meta name="twitter:title" content="Security headers of the top 1,000 websites">
 <meta name="twitter:description" content="Median 37/100. ~82% have no working CSP. Open dataset + methodology.">
 <meta name="twitter:image" content="https://josejux.github.io/top-1000-security-headers/social-card.png">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 <div class="wrap">
@@ -30,12 +30,26 @@
   <div class="links">
     <a id="repo" href="#">GitHub repo &amp; scripts</a>
     <a id="csv" href="#">Download dataset (CSV)</a>
-    <a id="api" href="#">Grade your own site</a>
+    <a href="#checker">Grade your own site &darr;</a>
     <button class="theme-btn" id="theme">Theme</button>
   </div>
 </header>
 
 <section class="tiles" id="tiles"></section>
+
+<section class="block checker" id="checker">
+  <h2>How does your site score?</h2>
+  <p class="sub">Same six-header grading, run live against any URL. No sign-up. Powered by the
+  <a id="api" href="#">Web Metadata &amp; Contact Extractor API</a>.</p>
+  <div class="chart-card">
+    <form id="check-form" class="check-form">
+      <input id="check-url" type="text" inputmode="url" autocomplete="off"
+             placeholder="yourdomain.com" aria-label="URL to check">
+      <button type="submit" id="check-btn">Check</button>
+    </form>
+    <div id="check-out" class="check-out" hidden></div>
+  </div>
+</section>
 
 <section class="block">
   <h2>Most of the top sites are missing most of the headers</h2>
@@ -115,6 +129,6 @@
 </div>
 <div class="tip" id="tip"></div>
 <script src="data.js"></script>
-<script src="app.js"></script>
+<script src="app.js?v=2"></script>
 </body>
 </html>

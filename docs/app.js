@@ -280,4 +280,77 @@ function render() {
 function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
 render();
 
+// ---- live "grade your own site" checker ---------------------------
+var CHECK_KEYS = ["strict_transport_security", "content_security_policy", "x_frame_options",
+                  "x_content_type_options", "referrer_policy", "permissions_policy"];
+var GRADE_DOT = { missing: 0, weak: 1, "report-only": 1, reasonable: 2, strong: 3 };
+var form = document.getElementById("check-form");
+var input = document.getElementById("check-url");
+var btn = document.getElementById("check-btn");
+var out = document.getElementById("check-out");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  var raw = input.value.trim();
+  if (!raw) return;
+  var url = /^https?:\/\//i.test(raw) ? raw : "https://" + raw;
+  btn.disabled = true; btn.textContent = "Checking...";
+  out.hidden = false;
+  out.innerHTML = '<span class="co-url">Grading ' + esc(url) + ' ...</span>';
+
+  fetch(API + "/tools/api/security-check?url=" + encodeURIComponent(url))
+    .then(function (r) {
+      return r.json().then(function (body) { return { status: r.status, body: body }; });
+    })
+    .then(function (res) {
+      if (res.status === 429) return fail("Rate limited — the free checker allows a handful of requests per minute. Try again shortly.");
+      if (res.status >= 400 || !res.body || res.body.security_header_grades == null) {
+        var d = String((res.body && (res.body.detail || (res.body.error && res.body.error.message))) || "");
+        if (/resolve hostname|DNS/i.test(d)) return fail("Couldn't find that domain — check the spelling.");
+        if (/private|internal|reserved IP/i.test(d)) return fail("That address points to a private/internal host, which the checker won't fetch.");
+        if (/timed out|timeout/i.test(d)) return fail("The site took too long to respond.");
+        if (/content type|Only HTML/i.test(d)) return fail("That URL didn't return an HTML page.");
+        return fail(d || "Could not grade that URL.");
+      }
+      renderResult(url, res.body);
+    })
+    .catch(function () { fail("Could not reach the checker. Check the URL and your connection."); })
+    .then(function () { btn.disabled = false; btn.textContent = "Check"; });
+});
+
+function fail(msg) { out.innerHTML = '<span class="co-err">' + esc(msg) + '</span>'; }
+
+function renderResult(url, b) {
+  var score = Math.round(b.security_score_percentage);
+  var cls = score < 40 ? "lo" : score < 70 ? "mid" : "hi";
+  var grades = b.security_header_grades || {};
+  var why = b.security_header_explanations || {};
+  var headers = b.security_headers || {};
+  var challenged = b.status_code && (b.status_code === 403 || b.status_code === 401);
+
+  var html = '<div class="co-head">'
+    + '<span class="co-score ' + cls + '">' + score + ' / 100</span>'
+    + '<span class="co-url">' + esc(b.final_url || url) + '</span></div>';
+  if (challenged)
+    html += '<p class="co-err">The site returned a bot-challenge page (HTTP ' + b.status_code
+         + '), so these grades are for that page, not the real origin.</p>';
+
+  CHECK_KEYS.forEach(function (k, i) {
+    var g = grades[k] || "missing";
+    var dot = GRADE_DOT[g] == null ? 0 : GRADE_DOT[g];
+    var val = headers[k];
+    html += '<div class="co-row">'
+      + '<i class="d d' + dot + '"></i>'
+      + '<div><div class="co-name">' + GNAMES[i] + '</div>'
+      + '<div class="co-why">' + esc(why[k] || "") + '</div>'
+      + (val ? '<div class="co-why" style="opacity:.75"><code>' + esc(String(val).slice(0, 160)) + (String(val).length > 160 ? "…" : "") + '</code></div>' : '')
+      + '</div>'
+      + '<span class="co-grade">' + g + '</span></div>';
+  });
+
+  html += '<p class="co-cta">Full breakdown (SEO, tech stack, contacts, TLS) in one call: '
+       + '<a href="' + API + '">' + API.replace(/^https?:\/\//, "") + '</a></p>';
+  out.innerHTML = html;
+}
+
 })();

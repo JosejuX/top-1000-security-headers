@@ -146,6 +146,36 @@ tbody tr:hover { background: var(--chip); }
 .legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12.5px; color: var(--ink-2); margin-top: 10px; }
 .legend span { display: inline-flex; align-items: center; gap: 5px; }
 
+.check-form { display: flex; gap: 10px; flex-wrap: wrap; }
+.check-form input {
+  flex: 1; min-width: 220px; padding: 11px 14px; border-radius: 9px; font: inherit; font-size: 15px;
+  border: 1px solid var(--border); background: var(--plane); color: var(--ink);
+}
+.check-form input:focus { outline: 2px solid var(--blue); outline-offset: 1px; }
+.check-form button {
+  padding: 11px 22px; border-radius: 9px; border: 0; background: var(--blue); color: #fff;
+  font: inherit; font-size: 15px; font-weight: 600; cursor: pointer;
+}
+.check-form button:disabled { opacity: .55; cursor: default; }
+.check-out { margin-top: 18px; font-size: 14.5px; }
+.check-out .co-head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+.check-out .co-score { font-size: 34px; font-weight: 700; letter-spacing: -0.02em; }
+.check-out .co-score.lo { color: var(--red); }
+.check-out .co-score.mid { color: var(--warn); }
+.check-out .co-score.hi { color: var(--good); }
+.check-out .co-url { color: var(--ink-2); word-break: break-all; }
+.check-out .co-row {
+  display: grid; grid-template-columns: 20px 1fr auto; gap: 10px; align-items: start;
+  padding: 9px 0; border-top: 1px solid var(--grid);
+}
+.check-out .co-row .d { margin-top: 2px; }
+.check-out .co-name { font-weight: 600; }
+.check-out .co-why { color: var(--ink-2); font-size: 13px; margin-top: 2px; }
+.check-out .co-why code { word-break: break-all; font-size: 12px; }
+.check-out .co-grade { font-size: 12px; padding: 2px 9px; border-radius: 999px; background: var(--chip); color: var(--ink-2); white-space: nowrap; }
+.check-out .co-err { color: var(--red); }
+.check-out .co-cta { margin-top: 16px; font-size: 13.5px; color: var(--ink-2); }
+
 .method { font-size: 14.5px; color: var(--ink-2); }
 .method h2 { color: var(--ink); }
 .method code { background: var(--chip); padding: 1px 5px; border-radius: 4px; font-size: 13px; }
